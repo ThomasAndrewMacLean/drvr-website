@@ -28,10 +28,37 @@ html, body {
 
 /* Main title styling */
 .main-title {
-    font-size: clamp(3rem, 8vw, 8rem);
+    font-size: clamp(8rem, 20vw, 25rem);
     font-weight: 300;
     letter-spacing: 0.1em;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Individual letter animation */
+.letter {
+    display: inline-block;
+    animation: float 3s ease-in-out infinite;
+    animation-delay: var(--delay);
+    transform-origin: center;
+}
+
+/* Floating animation with subtle pulsing effect */
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0px) scale(1);
+    }
+    25% {
+        transform: translateY(-10px) scale(1.02);
+    }
+    50% {
+        transform: translateY(-20px) scale(1);
+    }
+    75% {
+        transform: translateY(-10px) scale(0.98);
+    }
 }
 
 /* Footer styling */
