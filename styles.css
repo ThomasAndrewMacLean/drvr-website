@@ -4,9 +4,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-header {
-  display: none;
-}
+ 
 html,
 body {
   height: 100dvh;
@@ -20,6 +18,9 @@ header {
   justify-content: center;
   gap: 2rem;
   padding-top: 3rem;
+}
+header{
+    display: none;
 }
 a {
   color: inherit;
