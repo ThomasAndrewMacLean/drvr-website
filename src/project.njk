@@ -5,6 +5,7 @@ pagination:
   alias: project
 permalink: "project/{{ project.id }}/"
 layout: base.njk
+eleventyExcludeFromCollections: true
 eleventyComputed:
   title: "{{ project.title }}"
 ---
