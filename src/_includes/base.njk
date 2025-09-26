@@ -3,24 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DRVR</title>
-    <link rel="stylesheet" href="styles.css" />
+      <title>{{ title or "DRVR" }}</title>
+    <link rel="stylesheet" href="/assets/styles.css" />
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><text y='52' font-size='52'>🏗️</text></svg>">
   </head>
   <body>
     <main class="container">
       <header>
         <a href="">WAT</a> | <a href="">WAAROM</a> | <a href="">HOE</a> |
-        <a href="">PROJECTEN</a> | <a href="">CONTACT</a>
+        <a href="/projecten">PROJECTEN</a> | <a href="">CONTACT</a>
       </header>
-      <div class="center-content">
-        <h1 class="main-title">
-          <span class="letter" style="--delay: 0s">D</span>
-          <span class="letter" style="--delay: 0.1s">R</span>
-          <span class="letter" style="--delay: 0.2s">V</span>
-          <span class="letter" style="--delay: 0.3s">R</span>
-        </h1>
-      </div>
+          {{ content | safe }}
+
+  
       <footer class="footer">
         <p>
           DE ROOVER STRUCTUREEL ONTWERP | STUKWERKERSSTRAAT 4301 - 9000 GENT |
@@ -30,6 +25,6 @@
         </p>
       </footer>
     </main>
-    <script src="script.js"></script>
+    <script src="/assets/script.js"></script>
   </body>
 </html>

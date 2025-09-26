@@ -1,0 +1,14 @@
+{
+  "emmet.includeLanguages": {
+    "njk": "html",
+    "nunjucks": "html"
+  },
+  "files.associations": {
+    "*.njk": "html",
+    "*.nunjucks": "html"
+  },
+  "emmet.showExpandedAbbreviation": "always",
+  "emmet.showAbbreviationSuggestions": true,
+  "emmet.showSuggestionsAsSnippets": true,
+  "editor.snippetSuggestions": "top"
+}
