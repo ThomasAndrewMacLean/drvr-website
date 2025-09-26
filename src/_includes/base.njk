@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>{{ title or "DRVR" }}</title>
+      <title>{% if title == "DRVR" %}{{ title }}{% else %}DRVR | {{ title  | upper }}{% endif %}</title>
     <link rel="stylesheet" href="/assets/styles.css" />
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><text y='52' font-size='52'>🏗️</text></svg>">
   </head>
