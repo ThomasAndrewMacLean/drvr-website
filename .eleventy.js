@@ -6,6 +6,7 @@ module.exports = function (eleventyConfig) {
   // Passthrough copy for CMS
   //   eleventyConfig.addPassthroughCopy("src/admin");
   eleventyConfig.addPassthroughCopy("src/assets");
+  eleventyConfig.addPassthroughCopy("src/robots.txt");
 
   // Date filter for templates
   eleventyConfig.addFilter("date", (dateObj, format = "yyyy") => {
@@ -23,7 +24,7 @@ module.exports = function (eleventyConfig) {
   return {
     dir: {
       input: "src",
-      output: "_site",
+      output: "docs",
     },
   };
 };

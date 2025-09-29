@@ -1,0 +1,16 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg" style="background: #f8f8f8;"><rect x="272.7950973247016" y="297.02582565495834" width="99.9703847478304" height="116.34096235535253" 
+                     fill="#ecf0f1" stroke="#2c3e50" stroke-width="2"/><rect x="272.7950973247016" y="297.02582565495834" width="99.9703847478304" height="116.34096235535253" 
+                     fill="#ecf0f1" stroke="#2c3e50" stroke-width="2"/><line x1="322.7802896986168" y1="355.1963068326346" 
+                       x2="380.7079348979869" y2="108.15478940485264" stroke="#2c3e50" stroke-width="2" stroke-dasharray="5,5"/><rect x="272.7950973247016" y="297.02582565495834" width="99.9703847478304" height="116.34096235535253" 
+                     fill="#ecf0f1" stroke="#2c3e50" stroke-width="2"/><line x1="322.7802896986168" y1="355.1963068326346" 
+                       x2="380.7079348979869" y2="108.15478940485264" stroke="#2c3e50" stroke-width="2" stroke-dasharray="5,5"/><rect x="272.7950973247016" y="297.02582565495834" width="99.9703847478304" height="116.34096235535253" 
+                     fill="#ecf0f1" stroke="#2c3e50" stroke-width="2"/><line x1="322.7802896986168" y1="355.1963068326346" 
+                       x2="380.7079348979869" y2="108.15478940485264" stroke="#2c3e50" stroke-width="2" stroke-dasharray="5,5"/><rect x="272.7950973247016" y="297.02582565495834" width="99.9703847478304" height="116.34096235535253" 
+                     fill="#ecf0f1" stroke="#2c3e50" stroke-width="2"/><line x1="322.7802896986168" y1="355.1963068326346" 
+                       x2="380.7079348979869" y2="108.15478940485264" stroke="#2c3e50" stroke-width="2" stroke-dasharray="5,5"/><text x="50" y="30" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">
+                 PROJECT 35 - COMPLEX PLAN</text><text x="650" y="580" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+                 SCHAAL 1:100</text><g transform="translate(720, 80)">
+                 <line x1="0" y1="0" x2="0" y2="-30" stroke="#e74c3c" stroke-width="2"/>
+                 <polygon points="0,-30 -5,-20 5,-20" fill="#e74c3c"/>
+                 <text x="10" y="-10" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">N</text>
+                 </g></svg>
