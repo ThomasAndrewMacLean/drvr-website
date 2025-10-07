@@ -1,0 +1,14 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg" style="background: #f8f8f8;"><rect x="138.46246444407728" y="300.1373092937023" width="118.00738710719997" height="62.542521061523075" 
+                     fill="#ecf0f1" stroke="#2c3e50" stroke-width="2"/><rect x="138.46246444407728" y="300.1373092937023" width="118.00738710719997" height="62.542521061523075" 
+                     fill="#ecf0f1" stroke="#2c3e50" stroke-width="2"/><line x1="197.46615799767727" y1="331.4085698244638" 
+                       x2="538.0101702528918" y2="152.5567082949692" stroke="#2c3e50" stroke-width="2" stroke-dasharray="5,5"/><rect x="138.46246444407728" y="300.1373092937023" width="118.00738710719997" height="62.542521061523075" 
+                     fill="#ecf0f1" stroke="#2c3e50" stroke-width="2"/><line x1="197.46615799767727" y1="331.4085698244638" 
+                       x2="538.0101702528918" y2="152.5567082949692" stroke="#2c3e50" stroke-width="2" stroke-dasharray="5,5"/><rect x="138.46246444407728" y="300.1373092937023" width="118.00738710719997" height="62.542521061523075" 
+                     fill="#ecf0f1" stroke="#2c3e50" stroke-width="2"/><line x1="197.46615799767727" y1="331.4085698244638" 
+                       x2="538.0101702528918" y2="152.5567082949692" stroke="#2c3e50" stroke-width="2" stroke-dasharray="5,5"/><text x="50" y="30" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">
+                 PROJECT 19 - COMPLEX PLAN</text><text x="650" y="580" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+                 SCHAAL 1:100</text><g transform="translate(720, 80)">
+                 <line x1="0" y1="0" x2="0" y2="-30" stroke="#e74c3c" stroke-width="2"/>
+                 <polygon points="0,-30 -5,-20 5,-20" fill="#e74c3c"/>
+                 <text x="10" y="-10" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">N</text>
+                 </g></svg>
