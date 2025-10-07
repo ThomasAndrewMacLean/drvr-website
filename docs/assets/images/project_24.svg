@@ -1,0 +1,14 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg" style="background: #f8f8f8;"><rect x="196.61320175712262" y="181.12529041291054" width="406.77359648575475" height="237.7494191741789" 
+                   fill="none" stroke="#2c3e50" stroke-width="6"/><line x1="298.3066008785613" y1="181.12529041291054" x2="298.3066008785613" y2="418.87470958708946" 
+                     stroke="#2c3e50" stroke-width="4"/><line x1="400" y1="181.12529041291054" x2="400" y2="418.87470958708946" 
+                     stroke="#2c3e50" stroke-width="4"/><line x1="501.6933991214387" y1="181.12529041291054" x2="501.6933991214387" y2="418.87470958708946" 
+                     stroke="#2c3e50" stroke-width="4"/><rect x="334.01072803483225" y="412.87470958708946" width="40" height="6" fill="#8b4513"/><rect x="334.01072803483225" y="412.87470958708946" width="40" height="6" fill="#8b4513"/><rect x="322.4981853577158" y="202.26068352312404" width="20" height="15" 
+                     fill="#3498db" stroke="#2c3e50" stroke-width="2"/><rect x="322.4981853577158" y="202.26068352312404" width="20" height="15" 
+                     fill="#3498db" stroke="#2c3e50" stroke-width="2"/><rect x="322.4981853577158" y="202.26068352312404" width="20" height="15" 
+                     fill="#3498db" stroke="#2c3e50" stroke-width="2"/><text x="50" y="30" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">
+                 PROJECT 24 - RESIDENTIAL PLAN</text><text x="650" y="580" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+                 SCHAAL 1:100</text><g transform="translate(720, 80)">
+                 <line x1="0" y1="0" x2="0" y2="-30" stroke="#e74c3c" stroke-width="2"/>
+                 <polygon points="0,-30 -5,-20 5,-20" fill="#e74c3c"/>
+                 <text x="10" y="-10" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">N</text>
+                 </g></svg>
