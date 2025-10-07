@@ -7,6 +7,7 @@ module.exports = function (eleventyConfig) {
   //   eleventyConfig.addPassthroughCopy("src/admin");
   eleventyConfig.addPassthroughCopy("src/assets");
   eleventyConfig.addPassthroughCopy("src/robots.txt");
+  eleventyConfig.addPassthroughCopy("CNAME");
 
   // Date filter for templates
   eleventyConfig.addFilter("date", (dateObj, format = "yyyy") => {
