@@ -1,0 +1,31 @@
+<blockquote>
+  {{ quote  }}
+</blockquote>
+
+
+<style>
+    blockquote {
+        font-style: italic;
+        border-left: 4px solid var(--accent-color, #000000);
+        margin-top: 5rem;
+         
+        color: var(--text-color, #333333);
+        font-size: 1.5rem;
+        line-height: 1.5;
+        position: relative;
+       
+        padding: 1rem 1.5rem;
+        
+        max-width: 800px;
+    }
+
+    blockquote::before {
+        content: "“";
+        font-size: 3rem;
+        position: absolute;
+        top: -10px;
+        left: 0px;
+        color: var(--accent-color, #000000);
+        font-family: serif;
+    }
+</style>

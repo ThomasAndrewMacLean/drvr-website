@@ -3,19 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>DRVR | PROJECT 17</title>
+    <title>
+      DRVR | PROJECT 17
+    </title>
     <link rel="stylesheet" href="/assets/styles.css" />
-      <meta name="description" content="DRVR - Arthur De Roover, ingenieur-architect in Gent. Specialist in structureel ontwerp, stabiliteitsstudie, funderingen, houtbouw en betonstructuren.">
+    <meta
+      name="description"
+      content="DRVR - Arthur De Roover, ingenieur-architect in Gent. Specialist in structureel ontwerp, stabiliteitsstudie, funderingen, houtbouw en betonstructuren."
+    />
 
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><text y='52' font-size='52'>🏗️</text></svg>">
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><text y='52' font-size='52'>🏗️</text></svg>"
+    />
   </head>
   <body>
     <main class="container">
-      <header>
-        <a href="/">WAT</a> | <a href="/">WAAROM</a> | <a href="/">HOE</a> |
-        <a href="/">PROJECTEN</a> | <a href="/">CONTACT</a>
-      </header>
-          
+      <header>  <a href="/">HOME</a> | <a href="/wat">WAT</a> | <a href="/waarom">WAAROM</a> |
+        <a href="/hoe">HOE</a> | <a href="/proces">PROCES</a> | <a href="/wie">WIE</a> | <a href="/projecten">PROJECTEN</a></header>
+      
 <div class="project-detail">
   <nav class="project-nav">
     <a href="/projecten" class="back-link">← Terug naar projecten</a>
@@ -268,7 +274,6 @@
   }
 </style>
 
-  
       <footer class="footer">
         <p>
           DE ROOVER STRUCTUREEL ONTWERP | STUKWERKERSSTRAAT 4301 - 9000 GENT |
@@ -277,6 +282,23 @@
           <a href="mailto:MAIL@DRVR.BE">MAIL@DRVR.BE</a>
         </p>
       </footer>
+
+      <button
+        id="randomColorButton"
+        popovertarget="colorPopover"
+        aria-describedby="colorPopover"
+      >
+        <img
+          src="/assets/images/color-wheel.svg"
+          width="40"
+          height="40"
+          alt=""
+        />
+        </button>
+        <div id="colorPopover" popover >
+         Don't like the colours? Click here!
+        </div>
+      </button>
     </main>
     <script src="/assets/script.js"></script>
   </body>

@@ -1,0 +1,76 @@
+<div class="quotes-bar">
+<marquee class="quotes-marquee" id="quotesMarquee" scrollamount="6"></marquee>
+</div>
+
+
+<style>
+    .quotes-bar{
+        position: fixed; 
+        top: 0;
+        
+      background-color: var(--text-color);
+      color: var(--background-color);
+        width: 100%;
+    }
+    #quotesMarquee {
+      overflow: auto;
+
+      padding: 0.5rem 0;
+      display: flex;
+    }
+
+    .quote {
+      white-space: nowrap;
+      margin-right: 3rem;
+      font-size:12px;
+      
+      
+      flex-shrink: 0;
+    }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const quotes = [
+      "Het is moeilijk te spreken over een realisatie zonder te zeggen waarvoor ze dient. Elke creatie wil altijd op een of andere manier dienstbaar zijn.",
+      "Aanwezigheid valt nooit te ontkennen en vraagt een zekere weerstand. Weerstand tegen wind en regen, tegen corrosie en veroudering, tegen vandalisme en kritiek, tegen zwaartekracht, tegen bestaan.",
+      "Artefacten hebben enkel betekenis wanneer er over kan worden gesproken. Dat discours ontstaat in een creatief proces door de voorafgaande ideeën te benoemen.",
+      "Betekenis ontstaat uit veelheid en gelaagdheid, uit samenwerkingen, dialoog en begrip, interesse en overtuiging, uit generositeit en dankbaarheid.",
+      "Een actie die meerdere redenen, gevolgen of doelen heeft is van meer waarde dan wat slechts één resultaat geeft. In het eerste geval kunnen we spreken over het creëren van een artefact met betekenis, in het tweede geval over het oplossen van een probleem.",
+      "We doen inspanningen om iets te bereiken, en materiaal moet worden gebruikt om er iets van te maken. We kopen geen materiaal om het weg te gooien, en we werken niet omdat we ons anders zouden vervelen.",
+      "Die relatie tussen middel en doel is intrinsiek, want een middel dat een doel zou worden, kan nooit een middel geweest zijn.",
+      "Niets is onmogelijk, maar er is een subjectieve grens, waarbij de middelen niet meer in verhouding staan tot hun resultaat.",
+    ];
+
+    // Shuffle array function
+    function shuffle(array) {
+      const shuffled = [...array];
+      for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+      }
+      return shuffled;
+    }
+
+    // Create infinite scrolling quotes
+    function createMarquee() {
+      const marquee = document.getElementById("quotesMarquee");
+      const shuffledQuotes = shuffle(quotes);
+
+      // Create multiple sets of quotes for continuous scroll
+      const quoteSets = 1; // Number of quote sets to create
+      let quotesHTML = "";
+
+      for (let set = 0; set < quoteSets; set++) {
+        shuffledQuotes.forEach((quote) => {
+          quotesHTML += `<span class="quote">${quote}</span>`;
+        });
+      }
+
+      marquee.innerHTML = quotesHTML;
+    }
+
+    // Reshuffle quotes periodically to keep it interesting
+    createMarquee();
+  });
+</script>
