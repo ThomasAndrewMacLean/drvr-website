@@ -34,7 +34,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add docs/
+          git add docs/ -f
           if ! git diff --staged --quiet; then
             git commit -m "Auto-build: Update built files [skip ci]"
             git push
