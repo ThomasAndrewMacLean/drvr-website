@@ -1,0 +1,16 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg" style="background: #f8f8f8;"><rect x="230.13194221389313" y="191.5711306893627" width="339.73611557221375" height="216.85773862127462" 
+                   fill="none" stroke="#2c3e50" stroke-width="6"/><line x1="400" y1="191.5711306893627" x2="400" y2="408.4288693106373" 
+                     stroke="#2c3e50" stroke-width="4"/><line x1="230.13194221389313" y1="300" x2="569.8680577861069" y2="300" 
+                     stroke="#2c3e50" stroke-width="4"/><rect x="337.2387639030156" y="402.4288693106373" width="40" height="6" fill="#8b4513"/><rect x="494.1128323300637" y="338.0219960669075" width="20" height="15" 
+                     fill="#3498db" stroke="#2c3e50" stroke-width="2"/><rect x="494.1128323300637" y="338.0219960669075" width="20" height="15" 
+                     fill="#3498db" stroke="#2c3e50" stroke-width="2"/><rect x="494.1128323300637" y="338.0219960669075" width="20" height="15" 
+                     fill="#3498db" stroke="#2c3e50" stroke-width="2"/><rect x="494.1128323300637" y="338.0219960669075" width="20" height="15" 
+                     fill="#3498db" stroke="#2c3e50" stroke-width="2"/><rect x="494.1128323300637" y="338.0219960669075" width="20" height="15" 
+                     fill="#3498db" stroke="#2c3e50" stroke-width="2"/><rect x="494.1128323300637" y="338.0219960669075" width="20" height="15" 
+                     fill="#3498db" stroke="#2c3e50" stroke-width="2"/><text x="50" y="30" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">
+                 PROJECT 32 - RESIDENTIAL PLAN</text><text x="650" y="580" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+                 SCHAAL 1:100</text><g transform="translate(720, 80)">
+                 <line x1="0" y1="0" x2="0" y2="-30" stroke="#e74c3c" stroke-width="2"/>
+                 <polygon points="0,-30 -5,-20 5,-20" fill="#e74c3c"/>
+                 <text x="10" y="-10" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">N</text>
+                 </g></svg>
