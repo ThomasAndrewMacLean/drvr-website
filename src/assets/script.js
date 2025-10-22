@@ -148,7 +148,7 @@ function hslToRgb(h, s, l) {
     b: Math.round(b * 255),
   };
 }
-setRandomColors();
+setRandomColors(true);
 
 
 const popovers = document.querySelectorAll("[popovertarget]");
