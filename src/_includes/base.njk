@@ -4,14 +4,103 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
-      {% if title == "DRVR" %}{{ title }}{% else %}DRVR | {{ title | upper }}{%
-      endif %}
+      {% if title == "DRVR" %}{{ title }} - De Roover Structureel Ontwerp Gent{%
+      else %}{{ title | upper }} | DRVR - De Roover Structureel Ontwerp{% endif
+      %}
     </title>
-    <link rel="stylesheet" href="/assets/styles.css" />
+
+    <!-- SEO Meta Tags -->
+    {% set defaultDescription = "DRVR - Arthur De Roover, raadgevend
+    ingenieur-architect in Gent. Specialist structureel ontwerp,
+    stabiliteitsstudie, stabiliteitsberekening, funderingen, staalstructuur,
+    houtconstructie, betonstructuur, wapeningsstudie en wapeningsplannen." %} {%
+    if title == "PROJECTEN" %} {% set pageDescription = "Bekijk onze projecten
+    van De Roover Structureel Ontwerp in Gent. Houtbouw, betonstructuren,
+    staalconstructies, stabiliteitsberekeningen en wapeningsplannen door
+    ingenieur Arthur De Roover." %} {% elif title and title != "DRVR" %} {% set
+    pageDescription = title + " - De Roover Structureel Ontwerp Gent.
+    Ingenieur-architect Arthur De Roover, specialist stabiliteitsstudie,
+    constructeur, stabiliteitsberekening en structureel ontwerp." %} {% else %}
+    {% set pageDescription = defaultDescription %} {% endif %}
+
+    <meta name="description" content="{{ pageDescription }}" />
     <meta
-      name="description"
-      content="DRVR - Arthur De Roover, ingenieur-architect in Gent. Specialist in structureel ontwerp, stabiliteitsstudie, funderingen, houtbouw en betonstructuren."
+      name="keywords"
+      content="DRVR, De Roover, Arthur De Roover, structureel ontwerp, structureel ontwerp Gent, ontwerp constructie, ingenieur, ingenieur-architect, stabiliteit, stabiliteitsstudie, raadgevend ingenieur, ingenieur stabiliteit, constructeur, stabiliteitsberekening, studie funderingen, studie staalstructuur, poutrel berekenen, potrel berekenen, studie houtbouw, houtconstructie berekenen, ontwerp houtstructuur, ontwerp betonstructuur, betonstudie, wapeningsstudie, wapeningsplannen, Gent"
     />
+    <meta name="author" content="Arthur De Roover - DRVR" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+    <meta
+      property="og:title"
+      content="{% if title == 'DRVR' %}{{
+        title
+      }} - De Roover Structureel Ontwerp Gent{% else %}{{
+        title | upper
+      }} | DRVR{% endif %}"
+    />
+    <meta property="og:description" content="{{ pageDescription }}" />
+    <meta
+      property="og:site_name"
+      content="DRVR - De Roover Structureel Ontwerp"
+    />
+    <meta property="og:locale" content="nl_BE" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:url" content="{{ site.url }}{{ page.url }}" />
+    <meta
+      property="twitter:title"
+      content="{% if title == 'DRVR' %}{{
+        title
+      }} - De Roover Structureel Ontwerp Gent{% else %}{{
+        title | upper
+      }} | DRVR{% endif %}"
+    />
+    <meta property="twitter:description" content="{{ pageDescription }}" />
+
+    <!-- Local Business Schema -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "DRVR - De Roover Structureel Ontwerp",
+        "alternateName": "De Roover Structureel Ontwerp",
+        "description": "{{ defaultDescription }}",
+        "url": "{{ site.url }}",
+        "telephone": "+32476472688",
+        "email": "mail@drvr.be",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Stukwerkersstraat 4301",
+          "addressLocality": "Gent",
+          "postalCode": "9000",
+          "addressCountry": "BE"
+        },
+        "founder": {
+          "@type": "Person",
+          "name": "Arthur De Roover",
+          "jobTitle": "Ingenieur-Architect"
+        },
+        "serviceType": [
+          "Structureel Ontwerp",
+          "Stabiliteitsstudie",
+          "Stabiliteitsberekening",
+          "Houtconstructie",
+          "Betonstructuur",
+          "Staalstructuur",
+          "Wapeningsstudie",
+          "Funderingen"
+        ],
+        "areaServed": "Gent",
+        "vatID": "BE 0589 876 893"
+      }
+    </script>
+
+    <link rel="stylesheet" href="/assets/styles.css" />
 
     <link
       rel="icon"
