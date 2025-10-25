@@ -62,8 +62,8 @@ header {
   align-items: center;
   justify-content: center;
   gap: 1rem 2rem;
-  padding-block: 2rem;
-  padding-top: 2rem;
+  padding: 2rem;
+
   flex-wrap: wrap;
 }
 
@@ -115,7 +115,7 @@ a {
 }
 /* Main title styling */
 .main-title {
-  font-size: clamp(8rem, 20vw, 25rem);
+  font-size: clamp(6rem, 20vw, 25rem);
   font-weight: 300;
   letter-spacing: 0.1em;
   text-align: center;
@@ -165,6 +165,16 @@ a {
 @media (max-width: 768px) {
   .footer {
     padding: 1.5rem;
+  }
+
+  header {
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .main-content{
+
+    margin-left: 5%;
   }
 }
 
