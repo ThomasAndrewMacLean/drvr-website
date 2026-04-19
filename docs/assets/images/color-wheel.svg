@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Red segment -->
+  <path d="M 100 100 L 100 20 A 80 80 0 0 1 169.28 60 Z" fill="#FF0000" stroke="#333" stroke-width="2"/>
+  
+  <!-- Orange segment -->
+  <path d="M 100 100 L 169.28 60 A 80 80 0 0 1 169.28 140 Z" fill="#FF8000" stroke="#333" stroke-width="2"/>
+  
+  <!-- Yellow segment -->
+  <path d="M 100 100 L 169.28 140 A 80 80 0 0 1 100 180 Z" fill="#FFFF00" stroke="#333" stroke-width="2"/>
+  
+  <!-- Green segment -->
+  <path d="M 100 100 L 100 180 A 80 80 0 0 1 30.72 140 Z" fill="#00FF00" stroke="#333" stroke-width="2"/>
+  
+  <!-- Blue segment -->
+  <path d="M 100 100 L 30.72 140 A 80 80 0 0 1 30.72 60 Z" fill="#0080FF" stroke="#333" stroke-width="2"/>
+  
+  <!-- Purple segment -->
+  <path d="M 100 100 L 30.72 60 A 80 80 0 0 1 100 20 Z" fill="#8000FF" stroke="#333" stroke-width="2"/>
+  
+  <!-- Center circle -->
+  <circle cx="100" cy="100" r="25" fill="#FFFFFF" stroke="#333" stroke-width="2"/>
+  
+  <!-- Outer ring -->
+  <circle cx="100" cy="100" r="80" fill="none" stroke="#333" stroke-width="3"/>
+</svg>

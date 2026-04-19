@@ -1,0 +1,20 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg" style="background: #f8f8f8;"><rect x="144.76372934059327" y="143.2852456753153" width="510.47254131881346" height="313.4295086493694" 
+                   fill="#ecf0f1" stroke="#2c3e50" stroke-width="5"/><line x1="272.38186467029664" y1="143.2852456753153" x2="272.38186467029664" y2="456.7147543246847" 
+                     stroke="#2c3e50" stroke-width="3"/><line x1="400" y1="143.2852456753153" x2="400" y2="456.7147543246847" 
+                     stroke="#2c3e50" stroke-width="3"/><line x1="527.6181353297034" y1="143.2852456753153" x2="527.6181353297034" y2="456.7147543246847" 
+                     stroke="#2c3e50" stroke-width="3"/><line x1="144.76372934059327" y1="300" x2="655.2362706594067" y2="300" 
+                     stroke="#2c3e50" stroke-width="3"/><text x="208.57279700544495" y="221.64262283765765" text-anchor="middle" 
+                       font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">SLAAPKAMER</text><text x="208.57279700544495" y="378.35737716234235" text-anchor="middle" 
+                       font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">BADKAMER</text><text x="336.1909323351483" y="221.64262283765765" text-anchor="middle" 
+                       font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">BADKAMER</text><text x="336.1909323351483" y="378.35737716234235" text-anchor="middle" 
+                       font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">BUREAU</text><text x="463.8090676648517" y="221.64262283765765" text-anchor="middle" 
+                       font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">BUREAU</text><text x="463.8090676648517" y="378.35737716234235" text-anchor="middle" 
+                       font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">BERGING</text><text x="591.427202994555" y="221.64262283765765" text-anchor="middle" 
+                       font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">BERGING</text><text x="591.427202994555" y="378.35737716234235" text-anchor="middle" 
+                       font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">KEUKEN</text><text x="50" y="30" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">
+                 PROJECT 26 - TRADITIONAL PLAN</text><text x="650" y="580" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+                 SCHAAL 1:100</text><g transform="translate(720, 80)">
+                 <line x1="0" y1="0" x2="0" y2="-30" stroke="#e74c3c" stroke-width="2"/>
+                 <polygon points="0,-30 -5,-20 5,-20" fill="#e74c3c"/>
+                 <text x="10" y="-10" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">N</text>
+                 </g></svg>
