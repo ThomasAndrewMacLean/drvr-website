@@ -54,8 +54,16 @@ body {
   height: 100dvh;
   font-weight: bold;
   line-height: 1.5;
-  font-family: "Arial", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, sans-serif;
+  font-family:
+    "Arial",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    sans-serif;
 }
 header {
   display: flex;
@@ -174,7 +182,9 @@ a {
   font-size: 0.875rem;
   opacity: 0;
   pointer-events: none;
-  transition: opacity 0.2s ease, transform 0.2s ease;
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease;
   white-space: nowrap;
   z-index: 9999;
 }
@@ -201,8 +211,7 @@ a {
     padding: 1rem;
   }
 
-  .main-content{
-
+  .main-content {
     margin-left: 5%;
   }
 }
