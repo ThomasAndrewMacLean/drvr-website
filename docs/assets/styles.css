@@ -122,6 +122,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  user-select: none;
 }
 
 /* Individual letter animation */
@@ -153,6 +154,34 @@ a {
 .footer {
   padding: 2rem;
   text-align: center;
+}
+
+.copy-text {
+  cursor: pointer;
+  text-decoration: underline dotted;
+  text-underline-offset: 3px;
+}
+
+#copy-toast {
+  position: fixed;
+  bottom: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%) translateY(1rem);
+  background: var(--text-color, #000);
+  color: var(--background-color, #fff);
+  padding: 0.4rem 1rem;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  white-space: nowrap;
+  z-index: 9999;
+}
+
+#copy-toast.show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
 }
 
 .footer p {
