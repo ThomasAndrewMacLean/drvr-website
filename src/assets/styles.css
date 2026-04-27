@@ -1,3 +1,11 @@
+/* ISOCP font */
+@font-face {
+  font-family: "ISOCP";
+  src: url("ISOCP Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* Reset and base styles */
 * {
   margin: 0;
@@ -141,6 +149,7 @@ a {
 }
 /* Main title styling */
 .main-title {
+  font-family: "ISOCP", sans-serif;
   font-size: clamp(6rem, 20vw, 25rem);
   font-weight: 300;
   letter-spacing: 0.1em;
