@@ -1,0 +1,15 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg" style="background: #f8f8f8;"><rect x="152.58230125728005" y="191.00833503848662" width="494.8353974854399" height="217.98332992302676" 
+                   fill="none" stroke="#2c3e50" stroke-width="6"/><line x1="317.52743375242665" y1="191.00833503848662" x2="317.52743375242665" y2="408.9916649615134" 
+                     stroke="#2c3e50" stroke-width="4"/><line x1="482.4725662475733" y1="191.00833503848662" x2="482.4725662475733" y2="408.9916649615134" 
+                     stroke="#2c3e50" stroke-width="4"/><line x1="152.58230125728005" y1="300" x2="647.41769874272" y2="300" 
+                     stroke="#2c3e50" stroke-width="4"/><rect x="409.3471615953953" y="402.9916649615134" width="40" height="6" fill="#8b4513"/><rect x="409.3471615953953" y="402.9916649615134" width="40" height="6" fill="#8b4513"/><rect x="409.3471615953953" y="402.9916649615134" width="40" height="6" fill="#8b4513"/><rect x="534.0625115725454" y="354.16258792139126" width="20" height="15" 
+                     fill="#3498db" stroke="#2c3e50" stroke-width="2"/><rect x="534.0625115725454" y="354.16258792139126" width="20" height="15" 
+                     fill="#3498db" stroke="#2c3e50" stroke-width="2"/><rect x="534.0625115725454" y="354.16258792139126" width="20" height="15" 
+                     fill="#3498db" stroke="#2c3e50" stroke-width="2"/><rect x="534.0625115725454" y="354.16258792139126" width="20" height="15" 
+                     fill="#3498db" stroke="#2c3e50" stroke-width="2"/><text x="50" y="30" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">
+                 PROJECT 8 - RESIDENTIAL PLAN</text><text x="650" y="580" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+                 SCHAAL 1:100</text><g transform="translate(720, 80)">
+                 <line x1="0" y1="0" x2="0" y2="-30" stroke="#e74c3c" stroke-width="2"/>
+                 <polygon points="0,-30 -5,-20 5,-20" fill="#e74c3c"/>
+                 <text x="10" y="-10" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">N</text>
+                 </g></svg>

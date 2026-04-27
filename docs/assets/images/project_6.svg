@@ -1,0 +1,14 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg" style="background: #f8f8f8;"><rect x="162.72989930503172" y="140.50509527400266" width="474.54020138993656" height="318.9898094519947" 
+                   fill="#ecf0f1" stroke="#2c3e50" stroke-width="5"/><line x1="400" y1="140.50509527400266" x2="400" y2="459.49490472599734" 
+                     stroke="#2c3e50" stroke-width="3"/><line x1="162.72989930503172" y1="300" x2="637.2701006949683" y2="300" 
+                     stroke="#2c3e50" stroke-width="3"/><text x="281.36494965251586" y="220.25254763700133" text-anchor="middle" 
+                       font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">KEUKEN</text><text x="281.36494965251586" y="379.7474523629987" text-anchor="middle" 
+                       font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">WOONKAMER</text><text x="518.6350503474841" y="220.25254763700133" text-anchor="middle" 
+                       font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">WOONKAMER</text><text x="518.6350503474841" y="379.7474523629987" text-anchor="middle" 
+                       font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">SLAAPKAMER</text><text x="50" y="30" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">
+                 PROJECT 6 - TRADITIONAL PLAN</text><text x="650" y="580" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+                 SCHAAL 1:100</text><g transform="translate(720, 80)">
+                 <line x1="0" y1="0" x2="0" y2="-30" stroke="#e74c3c" stroke-width="2"/>
+                 <polygon points="0,-30 -5,-20 5,-20" fill="#e74c3c"/>
+                 <text x="10" y="-10" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">N</text>
+                 </g></svg>

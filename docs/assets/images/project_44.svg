@@ -1,0 +1,18 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg" style="background: #f8f8f8;"><rect x="232.6177267445928" y="180.34262504078242" width="334.7645465108144" height="239.31474991843515" 
+                   fill="none" stroke="#2c3e50" stroke-width="6"/><line x1="344.20590891486427" y1="180.34262504078242" x2="344.20590891486427" y2="419.6573749592176" 
+                     stroke="#2c3e50" stroke-width="4"/><line x1="455.79409108513573" y1="180.34262504078242" x2="455.79409108513573" y2="419.6573749592176" 
+                     stroke="#2c3e50" stroke-width="4"/><rect x="334.2644460340784" y="413.6573749592176" width="40" height="6" fill="#8b4513"/><rect x="334.2644460340784" y="413.6573749592176" width="40" height="6" fill="#8b4513"/><rect x="331.40151904501454" y="363.78667601847764" width="20" height="15" 
+                     fill="#3498db" stroke="#2c3e50" stroke-width="2"/><rect x="331.40151904501454" y="363.78667601847764" width="20" height="15" 
+                     fill="#3498db" stroke="#2c3e50" stroke-width="2"/><rect x="331.40151904501454" y="363.78667601847764" width="20" height="15" 
+                     fill="#3498db" stroke="#2c3e50" stroke-width="2"/><rect x="331.40151904501454" y="363.78667601847764" width="20" height="15" 
+                     fill="#3498db" stroke="#2c3e50" stroke-width="2"/><rect x="331.40151904501454" y="363.78667601847764" width="20" height="15" 
+                     fill="#3498db" stroke="#2c3e50" stroke-width="2"/><rect x="331.40151904501454" y="363.78667601847764" width="20" height="15" 
+                     fill="#3498db" stroke="#2c3e50" stroke-width="2"/><rect x="331.40151904501454" y="363.78667601847764" width="20" height="15" 
+                     fill="#3498db" stroke="#2c3e50" stroke-width="2"/><rect x="331.40151904501454" y="363.78667601847764" width="20" height="15" 
+                     fill="#3498db" stroke="#2c3e50" stroke-width="2"/><text x="50" y="30" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">
+                 PROJECT 44 - RESIDENTIAL PLAN</text><text x="650" y="580" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+                 SCHAAL 1:100</text><g transform="translate(720, 80)">
+                 <line x1="0" y1="0" x2="0" y2="-30" stroke="#e74c3c" stroke-width="2"/>
+                 <polygon points="0,-30 -5,-20 5,-20" fill="#e74c3c"/>
+                 <text x="10" y="-10" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">N</text>
+                 </g></svg>
