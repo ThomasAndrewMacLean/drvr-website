@@ -27,11 +27,11 @@ function setRandomColors(forceNew = false) {
   if (storedBgColor && storedTextColor && !forceNew) {
     document.documentElement.style.setProperty(
       "--background-color",
-      storedBgColor
+      storedBgColor,
     );
     document.documentElement.style.setProperty("--text-color", storedTextColor);
     console.log(
-      `Using stored colors: Background: ${storedBgColor}, Text: ${storedTextColor}`
+      `Using stored colors: Background: ${storedBgColor}, Text: ${storedTextColor}`,
     );
     return;
   }
@@ -46,7 +46,7 @@ function setRandomColors(forceNew = false) {
   if (
     !testIfTwoColorsHaveSufficientContrast(
       `rgb(${r}, ${g}, ${b})`,
-      complementaryColor
+      complementaryColor,
     )
   ) {
     // If contrast is insufficient, try again
@@ -60,11 +60,11 @@ function setRandomColors(forceNew = false) {
   // set these 2 colors to css variables
   document.documentElement.style.setProperty(
     "--background-color",
-    `rgb(${r}, ${g}, ${b})`
+    `rgb(${r}, ${g}, ${b})`,
   );
   document.documentElement.style.setProperty(
     "--text-color",
-    complementaryColor
+    complementaryColor,
   );
 
   // Log colors for debugging (optional)
@@ -150,18 +150,17 @@ function hslToRgb(h, s, l) {
 }
 setRandomColors(true);
 
-document.addEventListener('click', () => setRandomColors(true));
-
+document.addEventListener("click", () => setRandomColors(true));
 
 const popovers = document.querySelectorAll("[popovertarget]");
 
 popovers.forEach((e) => {
   const target = document.querySelector("#" + e.getAttribute("popovertarget"));
-  e.addEventListener("mouseover",()=>{
+  e.addEventListener("mouseover", () => {
     target.showPopover();
   });
-  
-  e.addEventListener("mouseout",()=>{
+
+  e.addEventListener("mouseout", () => {
     target.hidePopover();
   });
 });
