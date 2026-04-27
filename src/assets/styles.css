@@ -5,6 +5,24 @@
   box-sizing: border-box;
 }
 
+/* 256-color strip */
+.color-strip {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.color-strip-row {
+  display: flex;
+  height: calc(100vw / 64);
+}
+
+.color-strip-row span {
+  flex: 1;
+}
+
 #randomColorButton {
   position: fixed;
   top: 1rem;

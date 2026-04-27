@@ -111,6 +111,13 @@
     {% endif %}
   </head>
   <body>
+    <div class="color-strip" aria-hidden="true">
+      {% for row in colors | batch(64) %}
+      <div class="color-strip-row">
+        {% for color in row %}<span style="background-color:{{ color }}"></span>{% endfor %}
+      </div>
+      {% endfor %}
+    </div>
     <main class="container">
       <header style="display:none">{% include "nav.njk" %}</header>
       {{ content | safe }}
