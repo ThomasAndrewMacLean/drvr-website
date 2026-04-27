@@ -162,6 +162,7 @@ a {
 .footer {
   padding: 2rem;
   text-align: center;
+  user-select: none;
 }
 
 .copy-text {
