@@ -1,0 +1,15 @@
+160_STJ
+Constructie van terrassen aan appartementsgebouw
+opdracht : Stabiliteitsstudie
+architect : Gert Renders
+opdrachtgever : Stef Jansen
+aannemer : Staalbeton nv
+ligging : Sint-Jansplein 8, 2000 Antwerpen
+omvang : 3 terrassen 12m2, 3 terrassen 10m2
+budget : € 60.000,00
+status : Opgeleverd 2012
+bijzonderheden : Ontwerp van staalconstructie en 
+verankering, o.m. door middel van Detan spanstaven. 
+Chemische verankeringen in de bestaande 
+betonstructuur werden getest op de nodige trek- en 
+dwarskracht.

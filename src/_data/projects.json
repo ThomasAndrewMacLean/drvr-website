@@ -1,302 +1,954 @@
 [
   {
-    "id": "1",
-    "title": "project 1",
-    "description": "This is project 1",
-    "image": "/assets/images/project_1.svg"
+    "id": "346_DADI",
+    "slug": "346_DADI",
+    "title": "346_DADI",
+    "subtitle": "Bouwen van uitkijktoren / rollercoaster",
+    "opdracht": "Stabiliteitsstudie / ontwerp",
+    "architect": "GENERIEK / ROHM / DRVR",
+    "opdrachtgever": "Gemeente Dadizele",
+    "aannemer": "Met tegenwerking van QUBUS NV",
+    "ligging": "Dadizele",
+    "omvang": "Nvt",
+    "budget": "€ 445.000,00",
+    "status": "DBFM wedstrijd 2023, niet geselecteerd",
+    "bijzonderheden": "De structuur bestaat uit 8 kolommen",
+    "notes": "gelijmd gelammeleerd Lariks hout. Een stalen trap wentelt 25m omhoog en terug. Tbv de schrankingsweerstand wordt tussen de kolommen een mebraan van driehoeken gespannen. © Generiek",
+    "images": [
+      "/assets/images/projects/346_DADI/image_1.png",
+      "/assets/images/projects/346_DADI/image_2.png",
+      "/assets/images/projects/346_DADI/image_3.png",
+      "/assets/images/projects/346_DADI/image_4.png"
+    ]
   },
   {
-    "id": "2",
-    "title": "project 2",
-    "description": "This is project 2",
-    "image": "/assets/images/project_2.svg"
+    "id": "345_NPT",
+    "slug": "345_NPT",
+    "title": "345_NPT",
+    "subtitle": "Bouwen van vakatiewoning",
+    "opdracht": "Stabiliteitsstudie",
+    "architect": "OYO architects",
+    "opdrachtgever": "Ikigai invest bv",
+    "aannemer": "GDS Pieter Goudeseune / Hood cv",
+    "ligging": "Sint-Jorisplein, 8620 Nieuwpoort",
+    "omvang": "310 m2 bvo",
+    "budget": "€ 775.000,00",
+    "status": "In afwerkingsfase",
+    "bijzonderheden": "Houtmassiefbouw op gedeeltelijk",
+    "notes": "onderkelderde sokkel. Twee hellende daken uit CLT. Om maximale openheid van de leefruimte te realiseren wordt het CLT dak opgehangen aan niet-zichtbare omkeerbalken.",
+    "images": [
+      "/assets/images/projects/345_NPT/image_1.png",
+      "/assets/images/projects/345_NPT/image_2.png",
+      "/assets/images/projects/345_NPT/image_3.png"
+    ]
   },
   {
-    "id": "3",
-    "title": "project 3",
-    "description": "This is project 3",
-    "image": "/assets/images/project_3.svg"
+    "id": "341_VOL",
+    "slug": "341_VOL",
+    "title": "341_VOL",
+    "subtitle": "Bouwen van showroom en paviljoenen Volvo Trucks",
+    "opdracht": "Stabiliteitsstudie",
+    "architect": "OYO architects",
+    "opdrachtgever": "Volvo Group Belgium",
+    "aannemer": "Spanbo BV",
+    "ligging": "Smalle Heerweg, 9041 Oostakker",
+    "omvang": "500 m2 bvo",
+    "budget": "€ 1.736.400,00",
+    "status": "Opgeleverd 2024",
+    "bijzonderheden": "Het Visitor Centre is een volume van",
+    "notes": "40x10x10m opgebouwd uit GLULAM balken en CLT. De tribune van het auditorium in massief hout C24. Bijzondere aandacht voor de aansluiting met bestaande gebouwen. © OYO architects",
+    "images": [
+      "/assets/images/projects/341_VOL/image_1.png",
+      "/assets/images/projects/341_VOL/image_2.png",
+      "/assets/images/projects/341_VOL/image_3.png"
+    ]
   },
   {
-    "id": "4",
-    "title": "project 4",
-    "description": "This is project 4",
-    "image": "/assets/images/project_4.svg"
+    "id": "331_LEON",
+    "slug": "331_LEON",
+    "title": "331_LEON",
+    "subtitle": "Bouwen van woning in duin",
+    "opdracht": "Stabiliteitsstudie",
+    "architect": "OYO architects",
+    "opdrachtgever": "Blomme - Corneille",
+    "aannemer": "FS Workx",
+    "ligging": "Léonlaan, 8670 Koksijde",
+    "omvang": "300 m2 bvo",
+    "budget": "€ 750.000,00",
+    "status": "Opgeleverd 2024",
+    "bijzonderheden": "Woning in zichtbeton, gedeeltelijk",
+    "notes": "ingegraven in duin. Gedeeltelijk nagespannen beton. Bijzondere aandacht voor wapeningsdetails.",
+    "images": [
+      "/assets/images/projects/331_LEON/image_1.png",
+      "/assets/images/projects/331_LEON/image_2.png",
+      "/assets/images/projects/331_LEON/image_3.png"
+    ]
   },
   {
-    "id": "5",
-    "title": "project 5",
-    "description": "This is project 5",
-    "image": "/assets/images/project_5.svg"
+    "id": "327_BUG",
+    "slug": "327_BUG",
+    "title": "327_BUG",
+    "subtitle": "Bouwen van woning houtskelet",
+    "opdracht": "Stabiliteitsstudie",
+    "architect": "ALTU, Francesca Bonne & Veerle Van de",
+    "opdrachtgever": "Vekemans - Van Den Breen",
+    "aannemer": "PxP Projects",
+    "ligging": "Weide 4, 9255 Buggenhout",
+    "omvang": "250 m2 bvo",
+    "budget": "€ 375.000,00",
+    "status": "Opgeleverd 2024",
+    "bijzonderheden": "Kleine woning in houtskeletbouw. Een",
+    "notes": "Walle centrale kolom in gelamelleerd hout draagt de verschillende vloeren en dak.",
+    "images": [
+      "/assets/images/projects/327_BUG/image_1.png",
+      "/assets/images/projects/327_BUG/image_2.png",
+      "/assets/images/projects/327_BUG/image_3.png"
+    ]
   },
   {
-    "id": "6",
-    "title": "project 6",
-    "description": "This is project 6",
-    "image": "/assets/images/project_6.svg"
+    "id": "321_TRI",
+    "slug": "321_TRI",
+    "title": "321_TRI",
+    "subtitle": "Kunstwerk Triënnale Kortrijk",
+    "opdracht": "Berekening en constructie van kunstwerk",
+    "architect": "Choi Jeong Hwa",
+    "opdrachtgever": "Blackbirds",
+    "aannemer": "Blackbirds",
+    "ligging": "Grote Markt, Kortrijk",
+    "omvang": "Nvt",
+    "budget": "",
+    "status": "Opgeleverd 2021",
+    "bijzonderheden": "Kunstwerk opgebouw uit kattenbakken.",
+    "notes": "Onbekend De onderste trays worden verzwaard met beton, de trays worden gestapeld op een ingewerkte spil. Studie van o.a. windbelasting.",
+    "images": [
+      "/assets/images/projects/321_TRI/image_1.png",
+      "/assets/images/projects/321_TRI/image_2.png"
+    ]
   },
   {
-    "id": "7",
-    "title": "project 7",
-    "description": "This is project 7",
-    "image": "/assets/images/project_7.svg"
+    "id": "319_PEP",
+    "slug": "319_PEP",
+    "title": "319_PEP",
+    "subtitle": "Verbouwen van boerderij tot woning",
+    "opdracht": "Stabiliteitsstudie",
+    "architect": "OYO architects",
+    "opdrachtgever": "Mevr. Lynn Colruyt",
+    "aannemer": "LANNEER",
+    "ligging": "Termeeren 95, 1500 Halle",
+    "omvang": "450 m2 bvo",
+    "budget": "€ 480.000,00",
+    "status": "Opgeleverd 2023",
+    "bijzonderheden": "Houtskeletbouw binnen de behouden",
+    "notes": "metselwerk wanden van een boerderij. 3 verschillende staalkolommen nemen elk meerdere structurele functies op. Gedeeltelijk onderkelderd.",
+    "images": [
+      "/assets/images/projects/319_PEP/image_1.png",
+      "/assets/images/projects/319_PEP/image_2.png",
+      "/assets/images/projects/319_PEP/image_3.png",
+      "/assets/images/projects/319_PEP/image_4.png"
+    ]
   },
   {
-    "id": "8",
-    "title": "project 8",
-    "description": "This is project 8",
-    "image": "/assets/images/project_8.svg"
+    "id": "317_VAR",
+    "slug": "317_VAR",
+    "title": "317_VAR",
+    "subtitle": "Bouwen van tweewoonst met atelier",
+    "opdracht": "Stabiliteitsstudie",
+    "architect": "Studio MOTO",
+    "opdrachtgever": "Van Hoestenberghe",
+    "aannemer": "Bart Maveau",
+    "ligging": "Beisbroeckdreef 14, 8490 Varsenare",
+    "omvang": "510 m2 bvo",
+    "budget": "€ 765.000,00",
+    "status": "Opgeleverd 2023",
+    "bijzonderheden": "Staalskelet ingevuld met",
+    "notes": "snelbouwmetselwerk.  Profielsecties geoptimaliseerd door afwisselende draagrichting van de hout-betonvloer. De staalstructuur wordt thermisch en akoestisch ontkoppeld tussen de entiteiteiten.",
+    "images": [
+      "/assets/images/projects/317_VAR/image_1.png",
+      "/assets/images/projects/317_VAR/image_2.png",
+      "/assets/images/projects/317_VAR/image_3.png",
+      "/assets/images/projects/317_VAR/image_4.png"
+    ]
   },
   {
-    "id": "9",
-    "title": "project 9",
-    "description": "This is project 9",
-    "image": "/assets/images/project_9.svg"
+    "id": "310_KALK",
+    "slug": "310_KALK",
+    "title": "310_KALK",
+    "subtitle": "Bouwen van voetgangers- en fietsbrug",
+    "opdracht": "Opvolging stabiliteit",
+    "architect": "SEA, Vincent Servais",
+    "opdrachtgever": "Vlaamse Overheid; Agentschap Natuur",
+    "aannemer": "Melens Dejardin",
+    "ligging": "Kalkenvaart, Kalken / Wichelen (natuurgebied",
+    "omvang": "25m overspanning",
+    "budget": "€ 125.000,00",
+    "status": "Opgeleverd 2021",
+    "bijzonderheden": "Voetgangersbrug in CorTenstaal,",
+    "notes": "en Bos Kalkense Meersen) draagstructuur in hoogte borstwering. Economisch materiaalgebruik door CNC snijden van 2 vakwerkliggers uit 1 staalplaat. De drukzone bestaat uit een gebogen platstaal dat aan deze vakwerken wordt gelast.",
+    "images": [
+      "/assets/images/projects/310_KALK/image_1.png",
+      "/assets/images/projects/310_KALK/image_2.png",
+      "/assets/images/projects/310_KALK/image_3.png",
+      "/assets/images/projects/310_KALK/image_4.png"
+    ]
   },
   {
-    "id": "10",
-    "title": "project 10",
-    "description": "This is project 10",
-    "image": "/assets/images/project_10.svg"
+    "id": "301_DING",
+    "slug": "301_DING",
+    "title": "301_DING",
+    "subtitle": "Uitbreiding Design Museum Gent",
+    "opdracht": "Stabiliteitsstudie",
+    "architect": "BEL architecten",
+    "opdrachtgever": "SO Gent",
+    "aannemer": "Nvt",
+    "ligging": "Drabstraat, 9000 Gent",
+    "omvang": "2300 m2 bvo",
+    "budget": "€ 5.500.000,00",
+    "status": "Wedstrijd 2019, niet geselecteerd",
+    "bijzonderheden": "Gebouw opgevat als een betonsilo met",
+    "notes": "uitstijvende vloerplaten (TT-vloeren) om de 2 verdiepingen. Technieken worden geïntegreerd in een structurele diafragmawand. ©  BEL architecten",
+    "images": [
+      "/assets/images/projects/301_DING/image_1.png",
+      "/assets/images/projects/301_DING/image_2.png",
+      "/assets/images/projects/301_DING/image_3.png",
+      "/assets/images/projects/301_DING/image_4.png"
+    ]
   },
   {
-    "id": "11",
-    "title": "project 11",
-    "description": "This is project 11",
-    "image": "/assets/images/project_11.svg"
+    "id": "298_APP",
+    "slug": "298_APP",
+    "title": "298_APP",
+    "subtitle": "Bouwen van voetgangersbrug",
+    "opdracht": "Stabiliteitsstudie",
+    "architect": "ABSCIS architecten",
+    "opdrachtgever": "Vlaamse Overheid, Agentschap Natuur",
+    "aannemer": "Rob Van Raak",
+    "ligging": "Hoofdstraat Appels, 9200 Dendermonde",
+    "omvang": "Nvt",
+    "budget": "€ 71.300,00",
+    "status": "Opgeleverd 2020",
+    "bijzonderheden": "Na gunning werd beslist een",
+    "notes": "en Bos zelfbediend veerponton te realiseren, berekening van constructie, drijfvermogen van caissons,…",
+    "images": [
+      "/assets/images/projects/298_APP/image_1.png",
+      "/assets/images/projects/298_APP/image_2.png"
+    ]
   },
   {
-    "id": "12",
-    "title": "project 12",
-    "description": "This is project 12",
-    "image": "/assets/images/project_12.svg"
+    "id": "285_DWO",
+    "slug": "285_DWO",
+    "title": "285_DWO",
+    "subtitle": "Bouwen van villa",
+    "opdracht": "Stabiliteitsstudie",
+    "architect": "OYO architecten",
+    "opdrachtgever": "Colruyt - De Meyer",
+    "aannemer": "Elbeko bvba",
+    "ligging": "Klutsstraat 70, 1652 Beersel / Alsemberg",
+    "omvang": "500 m2 bvo",
+    "budget": "€ 747.000,00",
+    "status": "Opgeleverd 2021",
+    "bijzonderheden": "betonkelder, beglaasd gelijkvloers,",
+    "notes": "verdieping in metselwerk. Lastenoverdracht dmv ringbalk die op enkele subtiel verborgen kolommen draagt. Dragend houten buitenschrijnwerk. Samenwerkende hout-betonvloer.",
+    "images": [
+      "/assets/images/projects/285_DWO/image_1.png",
+      "/assets/images/projects/285_DWO/image_2.png",
+      "/assets/images/projects/285_DWO/image_3.png",
+      "/assets/images/projects/285_DWO/image_4.png"
+    ]
   },
   {
-    "id": "13",
-    "title": "project 13",
-    "description": "This is project 13",
-    "image": "/assets/images/project_13.svg"
+    "id": "284_KIJK",
+    "slug": "284_KIJK",
+    "title": "284_KIJK",
+    "subtitle": "Bouwen van kijktoren",
+    "opdracht": "Stabiliteitsstudie",
+    "architect": "Baeten Heylebos architecten",
+    "opdrachtgever": "vzw Durme / Fondatie van Baudelo",
+    "aannemer": "LAB15 cvba",
+    "ligging": "N51,172487; E4,008853, 9112 Sinaai",
+    "omvang": "Nvt",
+    "budget": "€ 50.000,00",
+    "status": "Opgeleverd 2019",
+    "bijzonderheden": "Uitkijktoren 3 verdiepingen, 9 houten",
+    "notes": "kolommen. De verticale beplanking is dragend, schrankingsweerstand door windverbanden aan buitenzijde.",
+    "images": [
+      "/assets/images/projects/284_KIJK/image_1.png",
+      "/assets/images/projects/284_KIJK/image_2.png",
+      "/assets/images/projects/284_KIJK/image_3.png"
+    ]
   },
   {
-    "id": "14",
-    "title": "project 14",
-    "description": "This is project 14",
-    "image": "/assets/images/project_14.svg"
+    "id": "277_NIJL",
+    "slug": "277_NIJL",
+    "title": "277_NIJL",
+    "subtitle": "Bouwen van woning",
+    "opdracht": "Stabiliteitsstudie",
+    "architect": "Joris Kerremans",
+    "opdrachtgever": "Jan Campforts",
+    "aannemer": "LC aannemingen, Nijlen",
+    "ligging": "Itegemsesteenweg lot 4, 2560 Bevel",
+    "omvang": "220 m2 bvo",
+    "budget": "€ 350.000,00",
+    "status": "Opgeleverd 2019",
+    "bijzonderheden": "Beheerst budget door eenvoudige",
+    "notes": "constructie, gewoon metselwerk, lintelen,… Smeerput in living. Complexe dakstructuur met parabolische spanten (GLULAM).",
+    "images": [
+      "/assets/images/projects/277_NIJL/image_1.png",
+      "/assets/images/projects/277_NIJL/image_2.png"
+    ]
   },
   {
-    "id": "15",
-    "title": "project 15",
-    "description": "This is project 15",
-    "image": "/assets/images/project_15.svg"
+    "id": "269_BOS",
+    "slug": "269_BOS",
+    "title": "269_BOS",
+    "subtitle": "Bouwen van duinenvilla",
+    "opdracht": "Stabiliteitsstudie",
+    "architect": "A154",
+    "opdrachtgever": "Mevr. Christine Vleurinck",
+    "aannemer": "Bouwwerken Dhaens bvba, Maldegem",
+    "ligging": "Bosduivenlaan 13A, 8300 Knokke",
+    "omvang": "490 m2 bvo",
+    "budget": "€ 735.000,00",
+    "status": "Opgeleverd 2019",
+    "bijzonderheden": "Keermuur secanspalen voor ingegraven",
+    "notes": "gelijkvloers. De verdieping bestaat uit een volume dat 6m uitkraagt en grote raamopeningen overspant. Dit wordt gerealiseerd door vierendeelliggers uit beton / staal.",
+    "images": [
+      "/assets/images/projects/269_BOS/image_1.png",
+      "/assets/images/projects/269_BOS/image_2.png"
+    ]
   },
   {
-    "id": "16",
-    "title": "project 16",
-    "description": "This is project 16",
-    "image": "/assets/images/project_16.svg"
+    "id": "268_MIR",
+    "slug": "268_MIR",
+    "title": "268_MIR",
+    "subtitle": "Renovatie van appartementsgebouw",
+    "opdracht": "Haalbaarheidsstudie",
+    "architect": "GEVELINZICHT",
+    "opdrachtgever": "GEVELINZICHT",
+    "aannemer": "-",
+    "ligging": "Sint-Lazaruslaan 1, Saint-Josse-Ten-Noode",
+    "omvang": "-",
+    "budget": "",
+    "status": "Studie 2017",
+    "bijzonderheden": "Miramar werd gebouwd als hotel voor",
+    "notes": "EXPO '58 en bevat nu kleine appartementen. Met wil nagaan of met het bouwen van 2 extra étages een geveluitbreiding kan worden gefinancierd. Dit vereist drastische aanpassingen en betonversterking.",
+    "images": [
+      "/assets/images/projects/268_MIR/image_1.png",
+      "/assets/images/projects/268_MIR/image_2.png"
+    ]
   },
   {
-    "id": "17",
-    "title": "project 17",
-    "description": "This is project 17",
-    "image": "/assets/images/project_17.svg"
+    "id": "267_MOR",
+    "slug": "267_MOR",
+    "title": "267_MOR",
+    "subtitle": "Verbouwen van magazijn tot woning",
+    "opdracht": "Stabiliteitsstudie",
+    "architect": "GAFPA bureau voor architectuur en",
+    "opdrachtgever": "GAFPA bureau voor architectuur en",
+    "aannemer": "VH Bouw, Kaprijke / LAB15 cvba, Gent",
+    "ligging": "Moriaanstraat 158, 9050 Ledeberg",
+    "omvang": "150 m2 bvo",
+    "budget": "€ 140.000,00",
+    "status": "Opgeleverd 2017",
+    "bijzonderheden": "Houten dakstructuur op cellenbeton",
+    "notes": "stedenbouw bvba stedenbouw bvba buitenwanden, 1 centrale betonkolom. Semi-intensief groendak.",
+    "images": [
+      "/assets/images/projects/267_MOR/image_1.png"
+    ]
   },
   {
-    "id": "18",
-    "title": "project 18",
-    "description": "This is project 18",
-    "image": "/assets/images/project_18.svg"
+    "id": "266_GEC",
+    "slug": "266_GEC",
+    "title": "266_GEC",
+    "subtitle": "Verbouwen van 2 panden tot restaurant met",
+    "opdracht": "Stabiliteitsstudie",
+    "architect": "GAFPA bureau voor architectuur en",
+    "opdrachtgever": "GEC vzw - Gents Ecologisch Centrum",
+    "aannemer": "Qubus nv, Merendree",
+    "ligging": "Kon. Maria Hendrikaplein 5-7, 9000 Gent",
+    "omvang": "ca. 360 m2 bvo",
+    "budget": "€ 438.000,00",
+    "status": "Opgeleverd 2018",
+    "bijzonderheden": "Waterdichte betonkelder tussen",
+    "notes": "wereldwinkel stedenbouw bvba aanpalende gebouwen, ondervangen bovenbouw door middel van staalkolommen, toevoegen keuken- en workshopruimtes in gelijmd gelamineerd hout met brandweerstand R60.",
+    "images": [
+      "/assets/images/projects/266_GEC/image_1.png",
+      "/assets/images/projects/266_GEC/image_2.png",
+      "/assets/images/projects/266_GEC/image_3.png"
+    ]
   },
   {
-    "id": "19",
-    "title": "project 19",
-    "description": "This is project 19",
-    "image": "/assets/images/project_19.svg"
+    "id": "264_BWB",
+    "slug": "264_BWB",
+    "title": "264_BWB",
+    "subtitle": "Uitbreiden brandweerkazerne",
+    "opdracht": "Stabiliteitsstudie",
+    "architect": "GAFPA bureau voor architectuur en",
+    "opdrachtgever": "Gemeente Brasschaat",
+    "aannemer": "Swinnen nv",
+    "ligging": "De Mortel 32, 2930 Brasschaat",
+    "omvang": "600 m2 renovatie, 2900 m2 nieuwbouw",
+    "budget": "€ 2.550.000,00",
+    "status": "Opgeleverd 2021",
+    "bijzonderheden": "Bouwen van een nieuwe voertuigenhal",
+    "notes": "stedenbouw bvba en gemeentemagazijnen. Bovenop de bestaande voertuigenhal wordt een kantoorverdieping gerealiseerd in massief kruislaagshout (CLT), 37,5% gedragen door de bestaande structuur.",
+    "images": [
+      "/assets/images/projects/264_BWB/image_1.png",
+      "/assets/images/projects/264_BWB/image_2.png",
+      "/assets/images/projects/264_BWB/image_3.png",
+      "/assets/images/projects/264_BWB/image_4.png"
+    ]
   },
   {
-    "id": "20",
-    "title": "project 20",
-    "description": "This is project 20",
-    "image": "/assets/images/project_20.svg"
+    "id": "261_DUIF",
+    "slug": "261_DUIF",
+    "title": "261_DUIF",
+    "subtitle": "Bouwen van dakverdieping",
+    "opdracht": "Stabiliteitsstudie",
+    "architect": "GAFPA bureau voor architectuur en",
+    "opdrachtgever": "Henri - Van Laere",
+    "aannemer": "LAB15 cvba",
+    "ligging": "Duifhuisstraat 68, 9000 Gent",
+    "omvang": "50 m2",
+    "budget": "€ 100.000,00",
+    "status": "Opgeleverd 2017",
+    "bijzonderheden": "Optopping dakverdieping in CLT, basis",
+    "notes": "stedenbouw bvba van ringbalken gewapend beton.",
+    "images": [
+      "/assets/images/projects/261_DUIF/image_1.png",
+      "/assets/images/projects/261_DUIF/image_2.png",
+      "/assets/images/projects/261_DUIF/image_3.png",
+      "/assets/images/projects/261_DUIF/image_4.png"
+    ]
   },
   {
-    "id": "21",
-    "title": "project 21",
-    "description": "This is project 21",
-    "image": "/assets/images/project_21.svg"
+    "id": "253_BTK",
+    "slug": "253_BTK",
+    "title": "253_BTK",
+    "subtitle": "Renovatie van de oude molen van Betekom",
+    "opdracht": "Stabiliteitsstudie",
+    "architect": "ALT architectuur, Thierry Lagrange",
+    "opdrachtgever": "Natuurpunt vzw - Gemeente Betekom",
+    "aannemer": "Eiffage / PIT",
+    "ligging": "Molenweg, 3130 Betekom",
+    "omvang": "ca. 100 m3 metselwerk",
+    "budget": "€ 220.000,00",
+    "status": "Opgeleverd 2021",
+    "bijzonderheden": "Restauratie van metselwerk",
+    "notes": "(ijzerzandsteen). Opgehangen uitkijkplatform van inlands eikenhout. Toegang via een dubbele helix spiltrap. © Johnny Umans",
+    "images": [
+      "/assets/images/projects/253_BTK/image_1.png",
+      "/assets/images/projects/253_BTK/image_2.png",
+      "/assets/images/projects/253_BTK/image_3.png"
+    ]
   },
   {
-    "id": "22",
-    "title": "project 22",
-    "description": "This is project 22",
-    "image": "/assets/images/project_22.svg"
+    "id": "247_ABRA",
+    "slug": "247_ABRA",
+    "title": "247_ABRA",
+    "subtitle": "Renovatie en uitbreiding van historische woning",
+    "opdracht": "Stabiliteitsstudie",
+    "architect": "Wim Goes architectuur",
+    "opdrachtgever": "Tobias Vanacker",
+    "aannemer": "Oikos bouw bvba",
+    "ligging": "Abrahamstraat, 9000 Gent",
+    "omvang": "150 m2 verbouwen, 30 m2 uitbreiding",
+    "budget": "€ 135.000,00",
+    "status": "Opgeleverd 2016",
+    "bijzonderheden": "Kleine uitbreiding in LWC (isolerend",
+    "notes": "lichtgewicht beton met geëxpandeerde glasgranulaten, 950 kg/m3). De elementen worden geprefabriceerd en gestapeld, verbonden met wpaening in gietkanalen.",
+    "images": [
+      "/assets/images/projects/247_ABRA/image_1.png",
+      "/assets/images/projects/247_ABRA/image_2.png",
+      "/assets/images/projects/247_ABRA/image_3.png",
+      "/assets/images/projects/247_ABRA/image_4.png"
+    ]
   },
   {
-    "id": "23",
-    "title": "project 23",
-    "description": "This is project 23",
-    "image": "/assets/images/project_23.svg"
+    "id": "246_ZWIJN",
+    "slug": "246_ZWIJN",
+    "title": "246_ZWIJN",
+    "subtitle": "Bouwen van een woning",
+    "opdracht": "Stabiliteitsstudie",
+    "architect": "GAFPA bureau voor architectuur en",
+    "opdrachtgever": "Casella Dossantos",
+    "aannemer": "VH Bouw",
+    "ligging": "Zwijnaardsesteenweg 178, 9000 Gent",
+    "omvang": "290 m2 bvo",
+    "budget": "€ 300.000,00",
+    "status": "Opgeleverd 2016",
+    "bijzonderheden": "Nieuwbouwwoning met bijzonder laag",
+    "notes": "stedenbouw bvba budget, ruwbouw = afbouw. 8m overspanning door middel van voorgespannen welfsels met gepolierde druklaag. Claustragevel bestaande uit betongrasdallen in staalstructuur.",
+    "images": [
+      "/assets/images/projects/246_ZWIJN/image_1.png",
+      "/assets/images/projects/246_ZWIJN/image_2.png"
+    ]
   },
   {
-    "id": "24",
-    "title": "project 24",
-    "description": "This is project 24",
-    "image": "/assets/images/project_24.svg"
+    "id": "244_ZAF",
+    "slug": "244_ZAF",
+    "title": "244_ZAF",
+    "subtitle": "Bouwen van zwembad en poolhouse",
+    "opdracht": "Stabiliteitsstudie",
+    "architect": "OSAR architecten, i.s.m. Lisa Buffel",
+    "opdrachtgever": "Combes - Peerts",
+    "aannemer": "Van De Moere",
+    "ligging": "Lisdoddeweg 8-10, 9080 Zaffelare",
+    "omvang": "135 m2 bvo + zwembad",
+    "budget": "€ 400.000,00",
+    "status": "Opgeleverd 2016",
+    "bijzonderheden": "Paviljoen in zichtbeton. Dragende",
+    "notes": "structuur in buitenklimaat. Dakvloer thermisch onderbroken.",
+    "images": [
+      "/assets/images/projects/244_ZAF/image_1.png",
+      "/assets/images/projects/244_ZAF/image_2.png",
+      "/assets/images/projects/244_ZAF/image_3.png",
+      "/assets/images/projects/244_ZAF/image_4.png",
+      "/assets/images/projects/244_ZAF/image_5.png",
+      "/assets/images/projects/244_ZAF/image_6.png"
+    ]
   },
   {
-    "id": "25",
-    "title": "project 25",
-    "description": "This is project 25",
-    "image": "/assets/images/project_25.svg"
+    "id": "238_ODK",
+    "slug": "238_ODK",
+    "title": "238_ODK",
+    "subtitle": "Renovatie en uitbreiding van Belle-époquewoning La",
+    "opdracht": "Stabiliteitsstudie",
+    "architect": "Coussée en Goris architecten",
+    "opdrachtgever": "Oikos advies nv",
+    "aannemer": "Oikos bouw bvba",
+    "ligging": "Zeedijk 454, 8670 Oostduinkerke",
+    "omvang": "345 m2 renovatie, 360 m2 nieuwbouw",
+    "budget": "€ 850.000,00",
+    "status": "Opgeleverd 2015",
+    "bijzonderheden": "Renovatie van beschermd gebouw,",
+    "notes": "Coursive versterken en verstijven van vloeren. Nieuw toregenbouwtje 8 verdiepingen met kleine footprint, in zichtbeton. Geprefabriceerde gevel elementen.",
+    "images": [
+      "/assets/images/projects/238_ODK/image_1.png",
+      "/assets/images/projects/238_ODK/image_2.png",
+      "/assets/images/projects/238_ODK/image_3.png",
+      "/assets/images/projects/238_ODK/image_4.png"
+    ]
   },
   {
-    "id": "26",
-    "title": "project 26",
-    "description": "This is project 26",
-    "image": "/assets/images/project_26.svg"
+    "id": "237_KON",
+    "slug": "237_KON",
+    "title": "237_KON",
+    "subtitle": "Bouwen van eengezinswoning",
+    "opdracht": "Stabiliteitsstudie",
+    "architect": "BEL architecten",
+    "opdrachtgever": "Dhr. en Mevr. De Win - Jacobs",
+    "aannemer": "ALBO (Michel Vankeerbergen); Buildinckx",
+    "ligging": "Koningin Astridlaan 68, 2550 Kontich",
+    "omvang": "275 m2 bvo",
+    "budget": "€ 350.000,00",
+    "status": "Opgeleverd 2017",
+    "bijzonderheden": "Turfgrond onder betonkelder vervangen",
+    "notes": "(KORLAM nv) door onderfundering. Gelijkvloers in metselwerk en beton, 7m hoge dakconstructie in massief kruislaagshout (CLT). De vouwschaal geometrie van het dak vereist bijzondere verbindingen. © Luca Beel",
+    "images": [
+      "/assets/images/projects/237_KON/image_1.png",
+      "/assets/images/projects/237_KON/image_2.png",
+      "/assets/images/projects/237_KON/image_3.png"
+    ]
   },
   {
-    "id": "27",
-    "title": "project 27",
-    "description": "This is project 27",
-    "image": "/assets/images/project_27.svg"
+    "id": "231_MM",
+    "slug": "231_MM",
+    "title": "231_MM",
+    "subtitle": "Berekening van kunstwerken",
+    "opdracht": "Advies stabiliteit",
+    "architect": "Hannes Van Severen",
+    "opdrachtgever": "Autonoom Gemeentebedrijf Museum",
+    "aannemer": "",
+    "ligging": "Museum M, Leopold Vanderkelenstraat 28, 3000",
+    "omvang": "-",
+    "budget": "-",
+    "status": "Opgeleverd 2015",
+    "bijzonderheden": "Berekeningsnota en details voor",
+    "notes": "Leuven Leuven plaatsing trapsculptuur Hannes Van Severen. Nazicht windbelasting en plaatsing op dak bestaande gebouw.",
+    "images": [
+      "/assets/images/projects/231_MM/image_1.png",
+      "/assets/images/projects/231_MM/image_2.png",
+      "/assets/images/projects/231_MM/image_3.png"
+    ]
   },
   {
-    "id": "28",
-    "title": "project 28",
-    "description": "This is project 28",
-    "image": "/assets/images/project_28.svg"
+    "id": "226_TTZ",
+    "slug": "226_TTZ",
+    "title": "226_TTZ",
+    "subtitle": "Bouwen van woning in een loods",
+    "opdracht": "Stabiliteitsstudie",
+    "architect": "GAFPA bureau voor architectuur en",
+    "opdrachtgever": "Jonas Binon & Birgit Mijlemans",
+    "aannemer": "VH Bouw",
+    "ligging": "Leo Tertzweillaan 52-55 lot 15, 9050 Gentbrugge",
+    "omvang": "180 m2 bvo",
+    "budget": "€ 180.000,00",
+    "status": "Opgeleverd 2014",
+    "bijzonderheden": "Structuurelementen en vloerplaten in",
+    "notes": "stedenbouw gelamelleerd hout, gepolierde betonplaat met geïntegreerde vloerverwarming en 2 dilatatievoegen omwille van verhinderde vervormingen",
+    "images": [
+      "/assets/images/projects/226_TTZ/image_1.png",
+      "/assets/images/projects/226_TTZ/image_2.png",
+      "/assets/images/projects/226_TTZ/image_3.png"
+    ]
   },
   {
-    "id": "29",
-    "title": "project 29",
-    "description": "This is project 29",
-    "image": "/assets/images/project_29.svg"
+    "id": "221_NEER",
+    "slug": "221_NEER",
+    "title": "221_NEER",
+    "subtitle": "Renovatie van Neerhoeve, bouwen van loodsen",
+    "opdracht": "Stabiliteitsstudie",
+    "architect": "ONO architectuur",
+    "opdrachtgever": "AG Vespa",
+    "aannemer": "-",
+    "ligging": "Schoonselhof, 2160 Wilrijk",
+    "omvang": "850 m2 renovatie, 1050 m2 nieuwbouw",
+    "budget": "€ 3.154.000,00",
+    "status": "Wedstrijd 2012, voorontwerp 2014",
+    "bijzonderheden": "Renovatie van beschermd gebouw, o.a.",
+    "notes": "plantsoendienst versterking moerbalken en houten roostering dmv opgelijmde staalplaat. Nieuwbouw in lichtgewicht- staalstructuur.",
+    "images": [
+      "/assets/images/projects/221_NEER/image_1.png",
+      "/assets/images/projects/221_NEER/image_2.png"
+    ]
   },
   {
-    "id": "30",
-    "title": "project 30",
-    "description": "This is project 30",
-    "image": "/assets/images/project_30.svg"
+    "id": "220_SILVER",
+    "slug": "220_SILVER",
+    "title": "220_SILVER",
+    "subtitle": "Broednest voor slechtvalken op 75m hoogte",
+    "opdracht": "Stabiliteitsstudie",
+    "architect": "Import export architecture",
+    "opdrachtgever": "Natuurpunt Hobokense Polder",
+    "aannemer": "Rudy De Buck & Zn",
+    "ligging": "Silvertop gebouw 2, Jan Denucéstraat,",
+    "omvang": "-",
+    "budget": "-",
+    "status": "Opgeleverd 2013",
+    "bijzonderheden": "De slechtvalken broeden graag in",
+    "notes": "Antwerpen (Kiel) rotsen, kliffen. Ze voelen zich dan ook thuis in de brutalistische architectuur van de Silvertopgebouwen. Het nest moet aan hoge windbelastingen weerstaan en beperkte trillingen ondervinden",
+    "images": [
+      "/assets/images/projects/220_SILVER/image_1.png",
+      "/assets/images/projects/220_SILVER/image_2.png",
+      "/assets/images/projects/220_SILVER/image_3.png"
+    ]
   },
   {
-    "id": "31",
-    "title": "project 31",
-    "description": "This is project 31",
-    "image": "/assets/images/project_31.svg"
+    "id": "219_WAAS",
+    "slug": "219_WAAS",
+    "title": "219_WAAS",
+    "subtitle": "Kleine uitbreiding van een woning",
+    "opdracht": "Stabiliteitsstudie",
+    "architect": "BLAF architecten",
+    "opdrachtgever": "Philip Van Neer & Martine Prevenier",
+    "aannemer": "Tom Broes",
+    "ligging": "Maretak 403",
+    "omvang": "20 m2 bvo",
+    "budget": "€ 30.000,00",
+    "status": "Opgeleverd 2013",
+    "bijzonderheden": "Uitkragende vloerplaat met houten",
+    "notes": "draagstructuur, schrankende kolommen door diagonale plaatsing.",
+    "images": [
+      "/assets/images/projects/219_WAAS/image_1.png",
+      "/assets/images/projects/219_WAAS/image_2.png",
+      "/assets/images/projects/219_WAAS/image_3.png"
+    ]
   },
   {
-    "id": "32",
-    "title": "project 32",
-    "description": "This is project 32",
-    "image": "/assets/images/project_32.svg"
+    "id": "216_LBT",
+    "slug": "216_LBT",
+    "title": "216_LBT",
+    "subtitle": "Verbouwen van woning en dakconstructie",
+    "opdracht": "Stabiliteitsstudie",
+    "architect": "BLAF architecten",
+    "opdrachtgever": "Thomas Labath",
+    "aannemer": "Gilbert",
+    "ligging": "Oude Houtlei 1, 9000 Gent",
+    "omvang": "225 m2",
+    "budget": "€ 180.000,00",
+    "status": "Opgeleverd 2013",
+    "bijzonderheden": "Aanpassen verdiepingsvloeren en",
+    "notes": "dakconstructie.",
+    "images": [
+      "/assets/images/projects/216_LBT/image_1.png",
+      "/assets/images/projects/216_LBT/image_2.png"
+    ]
   },
   {
-    "id": "33",
-    "title": "project 33",
-    "description": "This is project 33",
-    "image": "/assets/images/project_33.svg"
+    "id": "215_ENM",
+    "slug": "215_ENM",
+    "title": "215_ENM",
+    "subtitle": "Renoveren en uitbreiden van dokterspraktijk",
+    "opdracht": "Stabiliteitsstudie",
+    "architect": "GRAUX & BAEYENS architecten",
+    "opdrachtgever": "OMSORG bvba",
+    "aannemer": "Immohuys nv, Kruishoutem",
+    "ligging": "Kloosterstraat 33, 9700 Ename",
+    "omvang": "renovatie 190 m2, uitbreiding 140 m2",
+    "budget": "€ 800.000,00",
+    "status": "Opgeleverd 2013",
+    "bijzonderheden": "Verbouwing van oude pastorij,",
+    "notes": "uitbreiding gedeeltelijk onder terrasconstructie in zichtbeton. De 36cm dikke betontafel is ondersteund door 4 wanden en een kolom. Belangrijkste wapening tussenin de ovaalvormige openingen.",
+    "images": [
+      "/assets/images/projects/215_ENM/image_1.png",
+      "/assets/images/projects/215_ENM/image_2.png"
+    ]
   },
   {
-    "id": "34",
-    "title": "project 34",
-    "description": "This is project 34",
-    "image": "/assets/images/project_34.svg"
+    "id": "208_DRL",
+    "slug": "208_DRL",
+    "title": "208_DRL",
+    "subtitle": "Bouwen van een villa",
+    "opdracht": "Stabiliteitsstudie",
+    "architect": "Stéphane Beel Architecten",
+    "opdrachtgever": "Dhr. / Mevr. Q.",
+    "aannemer": "Oikos bouw bvba",
+    "ligging": "Deurle",
+    "omvang": "550m2 bvo",
+    "budget": "€ 800.000,00",
+    "status": "Opgeleverd 2014",
+    "bijzonderheden": "Bouwen van een woning op een",
+    "notes": "dragende betonkelder. Gewichtsbesparende betonplaat 40cm dikte op de kelder, teneinde uitkragingen en 'plan libre' te realiseren.",
+    "images": [
+      "/assets/images/projects/208_DRL/image_1.png",
+      "/assets/images/projects/208_DRL/image_2.png",
+      "/assets/images/projects/208_DRL/image_3.png"
+    ]
   },
   {
-    "id": "35",
-    "title": "project 35",
-    "description": "This is project 35",
-    "image": "/assets/images/project_35.svg"
+    "id": "185_WCHT",
+    "slug": "185_WCHT",
+    "title": "185_WCHT",
+    "subtitle": "Bouwen van een vakantiewoning",
+    "opdracht": "Stabiliteitsstudie",
+    "architect": "GAFPA bureau voor architectuur en",
+    "opdrachtgever": "Delaey - Vandenbroecke",
+    "aannemer": "LAB15 cvba",
+    "ligging": "Pottershoek 13, 9185 Wachtebeke",
+    "omvang": "ca. 170m2",
+    "budget": "€ 250.000,00",
+    "status": "Opgeleverd 2014",
+    "bijzonderheden": "Plateau gelijkvloers op",
+    "notes": "stedenbouw geprefabriceerde, recupereerbare funderingselementen. Wanden houtskelet, vloeren CLT, dragend buitenschrijnwerk. Geïntegreerde staalstructuren voor uitkragingen en schrankingsweerstand.",
+    "images": [
+      "/assets/images/projects/185_WCHT/image_1.png",
+      "/assets/images/projects/185_WCHT/image_2.png",
+      "/assets/images/projects/185_WCHT/image_3.png",
+      "/assets/images/projects/185_WCHT/image_4.png",
+      "/assets/images/projects/185_WCHT/image_5.png"
+    ]
   },
   {
-    "id": "36",
-    "title": "project 36",
-    "description": "This is project 36",
-    "image": "/assets/images/project_36.svg"
+    "id": "183_GRND",
+    "slug": "183_GRND",
+    "title": "183_GRND",
+    "subtitle": "Herbestemming van grindsilo's tot",
+    "opdracht": "Stabiliteitsstudie",
+    "architect": "ir.-arch. Sarah Melsens / Roberta Gigante /",
+    "opdrachtgever": "Stadsontwikkelingsbedrijf AGSOB Gent",
+    "aannemer": "Van de Gehuchte bvba",
+    "ligging": "Dok Noord, 9000 Gent",
+    "omvang": "2100m2",
+    "budget": "€ 150.000,00",
+    "status": "Opgeleverd 2012",
+    "bijzonderheden": "De grindbakken werden herbestemd tot",
+    "notes": "evenementenruimte ROTOR een polyvalente publieke ruimte. Betonwerken: trap aan noordkant, helling aan zuidkant. Tussen de compartimenten worden openingen gemaakt. Het geheel wordt geschilderd in witte reflecterende verf.",
+    "images": [
+      "/assets/images/projects/183_GRND/image_1.png",
+      "/assets/images/projects/183_GRND/image_2.png",
+      "/assets/images/projects/183_GRND/image_3.png"
+    ]
   },
   {
-    "id": "37",
-    "title": "project 37",
-    "description": "This is project 37",
-    "image": "/assets/images/project_37.svg"
+    "id": "175_TDW",
+    "slug": "175_TDW",
+    "title": "175_TDW",
+    "subtitle": "Bouwen van kantoorgebouw",
+    "opdracht": "Stabiliteitsstudie",
+    "architect": "BLAF Architecten",
+    "opdrachtgever": "Wegen en verkeer - district 413 Eeklo",
+    "aannemer": "Serck nv",
+    "ligging": "Tieltse steenweg, 9900 Eeklo",
+    "omvang": "900 m2 bvo nieuwbouw",
+    "budget": "€ 1.300.000,00",
+    "status": "Opgeleverd 2014",
+    "bijzonderheden": "Gewichtsbesparende betonvloeren",
+    "notes": "dragen rechtstreeks op kolommen (paddestoelvloer met betonkernactivering). Buiten de gordijngevel wordt een staalstructuur voor terrassen gebouwd.",
+    "images": [
+      "/assets/images/projects/175_TDW/image_1.png",
+      "/assets/images/projects/175_TDW/image_2.png",
+      "/assets/images/projects/175_TDW/image_3.png"
+    ]
   },
   {
-    "id": "38",
-    "title": "project 38",
-    "description": "This is project 38",
-    "image": "/assets/images/project_38.svg"
+    "id": "170_GOLF",
+    "slug": "170_GOLF",
+    "title": "170_GOLF",
+    "subtitle": "Bouwen van eengezinswoning",
+    "opdracht": "Stabiliteitsstudie",
+    "architect": "NU architectuuratelier",
+    "opdrachtgever": "Ximmo bvba",
+    "aannemer": "Wietse Lombaert",
+    "ligging": "Golflaan 12, 9830 Sint-Martens-Latem",
+    "omvang": "ca. 315m2 bvo",
+    "budget": "€ 400.000,00",
+    "status": "Opgeleverd 2012",
+    "bijzonderheden": "Fundering op betonkelder. Beschoeiing",
+    "notes": "aanpalende woning dmv secanspalen. Bovenbouw opgebouwd uit staalportieken en invulmetselwerk (betonblokken). © Stijn Bollaert",
+    "images": [
+      "/assets/images/projects/170_GOLF/image_1.png",
+      "/assets/images/projects/170_GOLF/image_2.png",
+      "/assets/images/projects/170_GOLF/image_3.png"
+    ]
   },
   {
-    "id": "39",
-    "title": "project 39",
-    "description": "This is project 39",
-    "image": "/assets/images/project_39.svg"
+    "id": "164_PEER",
+    "slug": "164_PEER",
+    "title": "164_PEER",
+    "subtitle": "Verbouwen en uitbreiden van een woning",
+    "opdracht": "Stabiliteitsstudie",
+    "architect": "De Vylder Vinck Taillieu architecten",
+    "opdrachtgever": "Camerlinck - Kirchner",
+    "aannemer": "Yves Van Eeghem",
+    "ligging": "Peerstraat 168, 9000 Gent",
+    "omvang": "ca. 60m2 verbouwen, ca. 30m2 nieuwbouw",
+    "budget": "€ 115.000,00",
+    "status": "Opgeleverd 2012",
+    "bijzonderheden": "Betonplaat dak wordt gestort met",
+    "notes": "verloren bekisting uit gehalveerde snelbouwstenen (Thermoblok). Wanden en vloer zelfde materiaal. Wanden 9cm dikte, windverbanden door middel van schoorstaven.",
+    "images": [
+      "/assets/images/projects/164_PEER/image_1.png",
+      "/assets/images/projects/164_PEER/image_2.png",
+      "/assets/images/projects/164_PEER/image_3.png"
+    ]
   },
   {
-    "id": "40",
-    "title": "project 40",
-    "description": "This is project 40",
-    "image": "/assets/images/project_40.svg"
+    "id": "160_STJ",
+    "slug": "160_STJ",
+    "title": "160_STJ",
+    "subtitle": "Constructie van terrassen aan appartementsgebouw",
+    "opdracht": "Stabiliteitsstudie",
+    "architect": "Gert Renders",
+    "opdrachtgever": "Stef Jansen",
+    "aannemer": "Staalbeton nv",
+    "ligging": "Sint-Jansplein 8, 2000 Antwerpen",
+    "omvang": "3 terrassen 12m2, 3 terrassen 10m2",
+    "budget": "€ 60.000,00",
+    "status": "Opgeleverd 2012",
+    "bijzonderheden": "Ontwerp van staalconstructie en",
+    "notes": "verankering, o.m. door middel van Detan spanstaven. Chemische verankeringen in de bestaande betonstructuur werden getest op de nodige trek- en dwarskracht.",
+    "images": [
+      "/assets/images/projects/160_STJ/image_1.jpeg",
+      "/assets/images/projects/160_STJ/image_2.jpeg",
+      "/assets/images/projects/160_STJ/image_3.jpeg"
+    ]
   },
   {
-    "id": "41",
-    "title": "project 41",
-    "description": "This is project 41",
-    "image": "/assets/images/project_41.svg"
+    "id": "149_ANTE",
+    "slug": "149_ANTE",
+    "title": "149_ANTE",
+    "subtitle": "Verbouwen van woning en atelier",
+    "opdracht": "Stabiliteitsstudie",
+    "architect": "De Vylder Vinck Taillieu architecten",
+    "opdrachtgever": "Timmermans - Gerhard",
+    "aannemer": "Koen Verfaillie",
+    "ligging": "Antwerpsesteenweg 284, 9040 Sint-Amandsberg",
+    "omvang": "310m2",
+    "budget": "€ 250.000,00",
+    "status": "Opgeleverd 2011",
+    "bijzonderheden": "Woning: ondervangen bestaande",
+    "notes": "betonvloeren dmv STEPOC wanden en balken. Atelier: restauratie van spanten, nieuwe vloerplaat en wanden.",
+    "images": [
+      "/assets/images/projects/149_ANTE/image_1.png",
+      "/assets/images/projects/149_ANTE/image_2.png",
+      "/assets/images/projects/149_ANTE/image_3.png",
+      "/assets/images/projects/149_ANTE/image_4.png"
+    ]
   },
   {
-    "id": "42",
-    "title": "project 42",
-    "description": "This is project 42",
-    "image": "/assets/images/project_42.svg"
+    "id": "143_MRTL",
+    "slug": "143_MRTL",
+    "title": "143_MRTL",
+    "subtitle": "Bouwen van een passiefwoning",
+    "opdracht": "Stabiliteitsstudie",
+    "architect": "Louis Lateur",
+    "opdrachtgever": "Lateur - Stroobandt",
+    "aannemer": "Bernard Van Eeghem",
+    "ligging": "Mortelstraat 39, 9830 Sint-Martens-Latem",
+    "omvang": "330m2",
+    "budget": "€ 400.000,00",
+    "status": "Opgeleverd 2013",
+    "bijzonderheden": "Betonkelder. Houtskeletbouw uit LVL en",
+    "notes": "FJI-liggers. Dwarse stabiliteit wordt bekomen door portieken.",
+    "images": [
+      "/assets/images/projects/143_MRTL/image_1.png",
+      "/assets/images/projects/143_MRTL/image_2.png",
+      "/assets/images/projects/143_MRTL/image_3.png"
+    ]
   },
   {
-    "id": "43",
-    "title": "project 43",
-    "description": "This is project 43",
-    "image": "/assets/images/project_43.svg"
+    "id": "140_KVT4",
+    "slug": "140_KVT4",
+    "title": "140_KVT4",
+    "subtitle": "Bouwen van een rijwoning",
+    "opdracht": "Stabiliteitsstudie",
+    "architect": "De Vylder Vinck Taillieu architecten",
+    "opdrachtgever": "Vandevelde - Snauwaert (AGSOB Gent)",
+    "aannemer": "Koen Verfaillie",
+    "ligging": "Tichelrei 108, 9000 Gent",
+    "omvang": "188m2 nieuwbouw",
+    "budget": "€ 225.000,00",
+    "status": "Opgeleverd 2011",
+    "bijzonderheden": "Rijwoning gerealiseerd in metselwerk en",
+    "notes": "houten draagvloeren met wisselende draagrichtingen. Stabiliteit door middel van betonportiek in achtergevel.",
+    "images": [
+      "/assets/images/projects/140_KVT4/image_1.png",
+      "/assets/images/projects/140_KVT4/image_2.png",
+      "/assets/images/projects/140_KVT4/image_3.png",
+      "/assets/images/projects/140_KVT4/image_4.png"
+    ]
   },
   {
-    "id": "44",
-    "title": "project 44",
-    "description": "This is project 44",
-    "image": "/assets/images/project_44.svg"
+    "id": "137_NEER",
+    "slug": "137_NEER",
+    "title": "137_NEER",
+    "subtitle": "Bouwen van appartementen",
+    "opdracht": "Stabiliteitsstudie",
+    "architect": "NU architectuuratelier",
+    "opdrachtgever": "Stadsontwikkelingsbedrijf AGSOB Gent",
+    "aannemer": "B&R / Bouw & Renovatie",
+    "ligging": "Neerscheldestraat, 9050 Ledeberg",
+    "omvang": "960m2 excl. buitenruimtes",
+    "budget": "€ 960.000,00",
+    "status": "Opgeleverd 2016",
+    "bijzonderheden": "Bouwen van 5 lage-energiewoningen.",
+    "notes": "De muren worden opgetrokken uit cellenbeton. Gedeeltelijk staat het gebouw op pilotis, zodat hieronder een parkeerlift kan worden voorzien. Fundering op valse putten.",
+    "images": [
+      "/assets/images/projects/137_NEER/image_1.png",
+      "/assets/images/projects/137_NEER/image_2.png",
+      "/assets/images/projects/137_NEER/image_3.png"
+    ]
   },
   {
-    "id": "45",
-    "title": "project 45",
-    "description": "This is project 45",
-    "image": "/assets/images/project_45.svg"
-  },
-  {
-    "id": "46",
-    "title": "project 46",
-    "description": "This is project 46",
-    "image": "/assets/images/project_46.svg"
-  },
-  {
-    "id": "47",
-    "title": "project 47",
-    "description": "This is project 47",
-    "image": "/assets/images/project_47.svg"
-  },
-  {
-    "id": "48",
-    "title": "project 48",
-    "description": "This is project 48",
-    "image": "/assets/images/project_48.svg"
-  },
-  {
-    "id": "49",
-    "title": "project 49",
-    "description": "This is project 49",
-    "image": "/assets/images/project_49.svg"
-  },
-  {
-    "id": "50",
-    "title": "project 50",
-    "description": "This is project 50",
-    "image": "/assets/images/project_50.svg"
+    "id": "132_12K",
+    "slug": "132_12K",
+    "title": "132_12K",
+    "subtitle": "Bouwen van een rijwoning",
+    "opdracht": "Stabiliteitsstudie",
+    "architect": "Dierendonck Blancke Architecten",
+    "opdrachtgever": "Van Eeckhout - Blancke",
+    "aannemer": "Simaco",
+    "ligging": "Twaalfkameren 57, 9000 Gent",
+    "omvang": "110 m2 bvo",
+    "budget": "€ 135.000,00",
+    "status": "Opgeleverd 2010",
+    "bijzonderheden": "Bouwen van een smalle rijwoning naast",
+    "notes": "een vroeg werk van Victor Horta. Fundering op bestaande kelder. Alle constructies in zichtmetselwerk / zichtbeton, houten vloerroosteringen. © Filip Dujardin",
+    "images": [
+      "/assets/images/projects/132_12K/image_1.jpeg",
+      "/assets/images/projects/132_12K/image_2.jpeg",
+      "/assets/images/projects/132_12K/image_3.jpeg",
+      "/assets/images/projects/132_12K/image_4.jpeg"
+    ]
   }
 ]

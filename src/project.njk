@@ -3,261 +3,332 @@ pagination:
   data: projects
   size: 1
   alias: project
-permalink: "project/{{ project.id }}/"
+permalink: "project/{{ project.slug }}/"
 layout: base.njk
+redirect: true
 eleventyExcludeFromCollections: true
 eleventyComputed:
   title: "{{ project.title }}"
 ---
 
-<div class="project-detail">
-  <nav class="project-nav">
-    <a href="/projecten" class="back-link">← Terug naar projecten</a>
-  </nav>
+<div class="pd-layout">
 
-  <div class="project-hero">
-    <img src="{{ project.image }}" alt="{{ project.title }}" class="project-image">
-    <div class="project-info">
-      <h1 class="project-title">{{ project.title }}</h1>
-      <p class="project-description">{{ project.description }}</p>
-    </div>
+  {# ── Left: data panel ────────────────────────────────────────────── #}
+  <aside class="pd-sidebar">
+    <a href="/projecten/" class="pd-back">← projecten</a>
+
+    <h1 class="pd-title">{{ project.title }}</h1>
+    {% if project.subtitle %}<p class="pd-subtitle">{{ project.subtitle }}</p>{% endif %}
+
+    <dl class="pd-fields">
+      {% if project.opdracht %}
+        <dt>opdracht</dt><dd>{{ project.opdracht }}</dd>
+      {% endif %}
+      {% if project.architect %}
+        <dt>architect</dt><dd>{{ project.architect }}</dd>
+      {% endif %}
+      {% if project.opdrachtgever %}
+        <dt>opdrachtgever</dt><dd>{{ project.opdrachtgever }}</dd>
+      {% endif %}
+      {% if project.aannemer %}
+        <dt>aannemer</dt><dd>{{ project.aannemer }}</dd>
+      {% endif %}
+      {% if project.ligging %}
+        <dt>ligging</dt><dd>{{ project.ligging }}</dd>
+      {% endif %}
+      {% if project.omvang %}
+        <dt>omvang</dt><dd>{{ project.omvang }}</dd>
+      {% endif %}
+      {% if project.budget %}
+        <dt>budget</dt><dd>{{ project.budget }}</dd>
+      {% endif %}
+      {% if project.status %}
+        <dt>status</dt><dd>{{ project.status }}</dd>
+      {% endif %}
+      {% if project.bijzonderheden %}
+        <dt>bijzonderheden</dt><dd>{{ project.bijzonderheden }}{% if project.notes %} {{ project.notes }}{% endif %}</dd>
+      {% endif %}
+    </dl>
+
+    {# prev / next navigation #}
+    {% set currentIndex = projects | findIndex("id", project.id) %}
+    {% set prevProject = projects[currentIndex - 1] if currentIndex > 0 %}
+    {% set nextProject = projects[currentIndex + 1] if currentIndex < (projects.length - 1) %}
+    <nav class="pd-prevnext">
+      {% if prevProject %}
+        <a href="/project/{{ prevProject.slug }}/" class="pd-nav-link">← {{ prevProject.title }}</a>
+      {% else %}
+        <span></span>
+      {% endif %}
+      {% if nextProject %}
+        <a href="/project/{{ nextProject.slug }}/" class="pd-nav-link">{{ nextProject.title }} →</a>
+      {% endif %}
+    </nav>
+  </aside>
+
+  {# ── Right: image viewer ─────────────────────────────────────────── #}
+  <div class="pd-viewer" id="pd-viewer">
+    {% if project.images.length > 0 %}
+      <div class="pd-main-img-wrap">
+        <img class="pd-main-img" id="pd-main-img"
+             src="{{ project.images[0] }}"
+             alt="{{ project.title }}" />
+        {% if project.images.length > 1 %}
+          <button class="pd-arrow pd-prev" id="pd-prev" aria-label="Vorig">&#8592;</button>
+          <button class="pd-arrow pd-next" id="pd-next" aria-label="Volgend">&#8594;</button>
+          <span class="pd-counter" id="pd-counter">1 / {{ project.images.length }}</span>
+        {% endif %}
+      </div>
+
+      {% if project.images.length > 1 %}
+        <div class="pd-thumbs" id="pd-thumbs">
+          {% for img in project.images %}
+            <button class="pd-thumb{% if loop.first %} active{% endif %}"
+                    data-idx="{{ loop.index0 }}"
+                    data-src="{{ img }}"
+                    aria-label="Foto {{ loop.index }}">
+              <img src="{{ img }}" alt="" loading="lazy" />
+            </button>
+          {% endfor %}
+        </div>
+      {% endif %}
+    {% else %}
+      <div class="pd-no-img">geen foto's beschikbaar</div>
+    {% endif %}
   </div>
 
-  <div class="project-content">
-    <div class="project-details">
-      <h2>Project Details</h2>
-      <div class="detail-grid">
-        <div class="detail-item">
-          <h3>Project ID</h3>
-          <p>{{ project.id }}</p>
-        </div>
-        <div class="detail-item">
-          <h3>Titel</h3>
-          <p>{{ project.title }}</p>
-        </div>
-        <div class="detail-item">
-          <h3>Beschrijving</h3>
-          <p>{{ project.description }}</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="project-navigation">
-      <h3>Andere Projecten</h3>
-      <div class="related-projects">
-        {% set currentIndex = projects | findIndex("id", project.id) %}
-        {% set prevProject = projects[currentIndex - 1] if currentIndex > 0 %}
-        {% set nextProject = projects[currentIndex + 1] if currentIndex < (projects.length - 1) %}
-        
-        {% if prevProject %}
-          <a href="/project/{{ prevProject.id }}" class="nav-project prev">
-            <img src="{{ prevProject.image }}" alt="{{ prevProject.title }}">
-            <div>
-              <span>Vorig Project</span>
-              <h4>{{ prevProject.title }}</h4>
-            </div>
-          </a>
-        {% endif %}
-
-        {% if nextProject %}
-          <a href="/project/{{ nextProject.id }}" class="nav-project next">
-            <img src="{{ nextProject.image }}" alt="{{ nextProject.title }}">
-            <div>
-              <span>Volgend Project</span>
-              <h4>{{ nextProject.title }}</h4>
-            </div>
-          </a>
-        {% endif %}
-      </div>
-    </div>
-  </div>
 </div>
 
+<script>
+(function () {
+  const images = {{ project.images | dump | safe }};
+  if (images.length <= 1) return;
+
+  let current = 0;
+  const mainImg = document.getElementById("pd-main-img");
+  const counter = document.getElementById("pd-counter");
+  const thumbs  = document.querySelectorAll(".pd-thumb");
+
+  function show(idx) {
+    current = (idx + images.length) % images.length;
+    mainImg.src = images[current];
+    counter.textContent = (current + 1) + " / " + images.length;
+    thumbs.forEach((t, i) => t.classList.toggle("active", i === current));
+    thumbs[current].scrollIntoView({ block: "nearest", inline: "nearest", behavior: "smooth" });
+  }
+
+  document.getElementById("pd-prev").addEventListener("click", () => show(current - 1));
+  document.getElementById("pd-next").addEventListener("click", () => show(current + 1));
+  thumbs.forEach(t => t.addEventListener("click", () => show(+t.dataset.idx)));
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "ArrowLeft")  show(current - 1);
+    if (e.key === "ArrowRight") show(current + 1);
+  });
+})();
+</script>
+
 <style>
-  .project-detail {
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 0;
+  /* ── Layout ──────────────────────────────────────────────────── */
+  .pd-layout {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    min-height: calc(100dvh - 80px); /* below header */
   }
 
-  .project-nav {
-    padding: 1rem;
-    border-bottom: 1px solid #eee;
+  /* ── Sidebar ─────────────────────────────────────────────────── */
+  .pd-sidebar {
+    padding: 1.5rem 1.2rem 1.5rem 1.5rem;
+    border-right: 1px solid var(--text-color, #fff);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    overflow-y: auto;
+    font-size: 0.82rem;
+    font-weight: 400;
   }
 
-  .back-link {
-    color: #333;
-    text-decoration: none;
+  .pd-back {
+    font-size: 0.75rem;
     font-weight: bold;
-    transition: color 0.3s ease;
+    letter-spacing: 0.08em;
+    text-decoration: none;
+    color: var(--text-color, #fff);
+    opacity: 0.7;
+  }
+  .pd-back:hover { opacity: 1; }
+
+  .pd-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    line-height: 1.2;
+    margin: 0;
   }
 
-  .back-link:hover {
-    color: #007acc;
+  .pd-subtitle {
+    font-size: 0.82rem;
+    font-weight: 400;
+    opacity: 0.85;
+    margin: 0;
+    line-height: 1.4;
   }
 
-  .project-hero {
-    position: relative;
-    height: 60vh;
+  .pd-fields {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.25rem 0.7rem;
+    align-items: baseline;
+    margin: 0;
+  }
+
+  .pd-fields dt {
+    font-weight: bold;
+    font-size: 0.65rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    opacity: 0.55;
+    white-space: nowrap;
+  }
+
+  .pd-fields dd {
+    margin: 0;
+    font-size: 0.78rem;
+    line-height: 1.4;
+    opacity: 0.9;
+  }
+
+  .pd-prevnext {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    padding-top: 1rem;
+    border-top: 1px solid color-mix(in srgb, var(--text-color, #fff) 20%, transparent);
+    font-size: 0.7rem;
+  }
+
+  .pd-nav-link {
+    text-decoration: none;
+    color: var(--text-color, #fff);
+    opacity: 0.6;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+  }
+  .pd-nav-link:hover { opacity: 1; }
+
+  /* ── Image viewer ────────────────────────────────────────────── */
+  .pd-viewer {
+    display: flex;
+    flex-direction: column;
     overflow: hidden;
+  }
+
+  .pd-main-img-wrap {
+    position: relative;
+    flex: 1;
+    min-height: 0;
+    overflow: hidden;
+    background: #000;
+  }
+
+  .pd-main-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+  }
+
+  .pd-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: color-mix(in srgb, var(--background-color, #121212) 70%, transparent);
+    color: var(--text-color, #fff);
+    border: 1px solid var(--text-color, #fff);
+    width: 2.2rem;
+    height: 2.2rem;
+    font-size: 1rem;
+    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
+    opacity: 0.5;
+    transition: opacity 0.15s;
+  }
+  .pd-arrow:hover { opacity: 1; }
+  .pd-prev { left: 0.6rem; }
+  .pd-next { right: 0.6rem; }
+
+  .pd-counter {
+    position: absolute;
+    bottom: 0.5rem;
+    right: 0.7rem;
+    font-size: 0.65rem;
+    font-weight: bold;
+    letter-spacing: 0.06em;
+    opacity: 0.6;
+    color: var(--text-color, #fff);
   }
 
-  .project-image {
+  .pd-thumbs {
+    display: flex;
+    gap: 2px;
+    padding: 2px;
+    background: var(--background-color, #121212);
+    border-top: 1px solid var(--text-color, #fff);
+    overflow-x: auto;
+    flex-shrink: 0;
+    height: 70px;
+  }
+
+  .pd-thumb {
+    border: 1px solid transparent;
+    padding: 0;
+    background: none;
+    cursor: pointer;
+    flex-shrink: 0;
+    height: 100%;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    opacity: 0.5;
+    transition: opacity 0.15s;
+  }
+  .pd-thumb:hover { opacity: 0.8; }
+  .pd-thumb.active {
+    border-color: var(--text-color, #fff);
+    opacity: 1;
+  }
+  .pd-thumb img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
+    display: block;
   }
 
-  .project-info {
-    position: relative;
-    z-index: 2;
-    text-align: center;
-    color: white;
-    background: rgba(0, 0, 0, 0.6);
-    padding: 2rem;
-    border-radius: 8px;
-    max-width: 600px;
-    margin: 0 1rem;
-  }
-
-  .project-title {
-    font-size: 3rem;
-    margin: 0 0 1rem 0;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-  }
-
-  .project-description {
-    font-size: 1.2rem;
-    margin: 0;
-    line-height: 1.6;
-  }
-
-  .project-content {
-    padding: 3rem 1rem;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-
-  .project-details {
-    margin-bottom: 3rem;
-  }
-
-  .project-details h2 {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    color: #333;
-  }
-
-  .detail-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-  }
-
-  .detail-item {
-    background: #f9f9f9;
-    padding: 1.5rem;
-    border-radius: 8px;
-    border-left: 4px solid #007acc;
-  }
-
-  .detail-item h3 {
-    margin: 0 0 0.5rem 0;
-    color: #333;
-    font-size: 1rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-  }
-
-  .detail-item p {
-    margin: 0;
-    font-size: 1.1rem;
-    color: #666;
-  }
-
-  .project-navigation h3 {
-    font-size: 1.5rem;
-    margin-bottom: 1.5rem;
-    color: #333;
-  }
-
-  .related-projects {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-  }
-
-  .nav-project {
+  .pd-no-img {
+    flex: 1;
     display: flex;
     align-items: center;
-    gap: 1rem;
-    padding: 1rem;
-    background: white;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    text-decoration: none;
-    color: #333;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    justify-content: center;
+    opacity: 0.3;
+    font-size: 0.9rem;
+    letter-spacing: 0.1em;
   }
 
-  .nav-project:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  }
-
-  .nav-project img {
-    width: 80px;
-    height: 80px;
-    object-fit: cover;
-    border-radius: 4px;
-  }
-
-  .nav-project div span {
-    display: block;
-    font-size: 0.8rem;
-    color: #888;
-    margin-bottom: 0.25rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-  }
-
-  .nav-project div h4 {
-    margin: 0;
-    font-size: 1.1rem;
-    color: #333;
-  }
-
-  /* Mobile responsive */
-  @media (max-width: 768px) {
-    .project-hero {
-      height: 40vh;
-    }
-
-    .project-title {
-      font-size: 2rem;
-    }
-
-    .project-info {
-      padding: 1.5rem;
-    }
-
-    .project-content {
-      padding: 2rem 1rem;
-    }
-
-    .detail-grid {
+  /* ── Responsive ──────────────────────────────────────────────── */
+  @media (max-width: 700px) {
+    .pd-layout {
       grid-template-columns: 1fr;
+      grid-template-rows: auto 1fr;
     }
-
-    .related-projects {
-      grid-template-columns: 1fr;
+    .pd-sidebar {
+      border-right: none;
+      border-bottom: 1px solid var(--text-color, #fff);
+      max-height: 40dvh;
+    }
+    .pd-viewer {
+      min-height: 55dvh;
     }
   }
 </style>

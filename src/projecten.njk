@@ -1,89 +1,139 @@
 ---
 layout: base.njk
+redirect: true
 title: "PROJECTEN"
 ---
 
-<div class="projects-grid">
- 
+<div class="projects-desktop">
+  {% for project in projects %}
+    <a href="/project/{{ project.slug }}/" class="project-window" style="--delay: {{ loop.index0 * 20 }}ms">
+      <div class="window-titlebar">
+        <span class="window-title">{{ project.title }}</span>
+        <span class="window-dots">
+          <span></span><span></span><span></span>
+        </span>
+      </div>
+      <div class="window-body">
+        {% if project.images.length > 0 %}
+          <img src="{{ project.images[0] }}" alt="{{ project.title }}" loading="lazy" />
+        {% else %}
+          <div class="window-no-image">—</div>
+        {% endif %}
+        {% if project.subtitle %}
+          <div class="window-subtitle">{{ project.subtitle }}</div>
+        {% endif %}
+      </div>
+    </a>
+  {% endfor %}
 </div>
 
 <style>
-  .projects-grid {
+  .projects-desktop {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 0;
-    min-height: 100vh;
-    width: 100vw;
-    margin: 0;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1px;
     padding: 0;
-    border: 2px solid black;
+    background-color: var(--text-color, #fff);
   }
 
-  .project-item { border: 2px solid black;
-    position: relative;
-    display: block;
-    aspect-ratio: 1;
-    overflow: hidden;
+  .project-window {
+    display: flex;
+    flex-direction: column;
     text-decoration: none;
-    color: white;
-    transition: transform 0.3s ease;
+    color: var(--background-color, #121212);
+    background-color: var(--background-color, #121212);
+    border: 1px solid var(--text-color, #fff);
+    overflow: hidden;
+    transition: background-color 0.15s ease;
+    aspect-ratio: 4 / 3;
   }
 
-  .project-item:hover {
-    transform: scale(1.02);
-    z-index: 1;
+  .project-window:hover {
+    background-color: color-mix(in srgb, var(--background-color, #121212) 85%, var(--text-color, #fff) 15%);
   }
 
-  .project-item img {
+  .window-titlebar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.35rem 0.6rem;
+    border-bottom: 1px solid var(--text-color, #fff);
+    flex-shrink: 0;
+    font-size: 0.7rem;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    color: var(--text-color, #fff);
+  }
+
+  .window-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .window-dots {
+    display: flex;
+    gap: 4px;
+    flex-shrink: 0;
+    margin-left: 0.5rem;
+  }
+
+  .window-dots span {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 1px solid var(--text-color, #fff);
+    display: block;
+  }
+
+  .window-body {
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .window-body img {
     width: 100%;
-    height: 100%;
+    flex: 1;
+    min-height: 0;
     object-fit: cover;
     display: block;
+    filter: grayscale(20%);
+    transition: filter 0.2s ease;
   }
 
-  .project-overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
-    padding: 2rem 1rem 1rem;
-    transform: translateY(100%);
-    transition: transform 0.3s ease;
+  .project-window:hover .window-body img {
+    filter: grayscale(0%);
   }
 
-  .project-item:hover .project-overlay {
-    transform: translateY(0);
+  .window-no-image {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-color, #fff);
+    opacity: 0.3;
+    font-size: 2rem;
   }
 
-  .project-overlay h3 {
-    margin: 0 0 0.5rem 0;
-    font-size: 1.2rem;
-    font-weight: bold;
+  .window-subtitle {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.65rem;
+    font-weight: 400;
+    color: var(--text-color, #fff);
+    opacity: 0.7;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-top: 1px solid color-mix(in srgb, var(--text-color, #fff) 20%, transparent);
+    flex-shrink: 0;
   }
 
-  .project-overlay p {
-    margin: 0;
-    font-size: 0.9rem;
-    opacity: 0.9;
-  }
-
-  /* Responsive adjustments */
-  @media (max-width: 768px) {
-    .projects-grid {
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    }
-    
-    .project-overlay {
-      transform: translateY(0);
-      background: rgba(0, 0, 0, 0.6);
-      padding: 1rem;
-    }
-  }
-
-  @media (max-width: 480px) {
-    .projects-grid {
-      grid-template-columns: repeat(2, 1fr);
+  @media (max-width: 600px) {
+    .projects-desktop {
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     }
   }
 </style>

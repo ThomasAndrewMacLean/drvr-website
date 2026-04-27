@@ -150,6 +150,8 @@ function hslToRgb(h, s, l) {
 }
 setRandomColors(true);
 
+document.addEventListener('click', () => setRandomColors(true));
+
 
 const popovers = document.querySelectorAll("[popovertarget]");
 

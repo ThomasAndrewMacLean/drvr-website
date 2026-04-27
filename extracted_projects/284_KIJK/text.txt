@@ -1,0 +1,14 @@
+284_KIJK
+Bouwen van kijktoren
+opdracht : Stabiliteitsstudie
+architect : Baeten Heylebos architecten
+opdrachtgever : vzw Durme / Fondatie van Baudelo
+aannemer : LAB15 cvba
+ligging : N51,172487; E4,008853, 9112 Sinaai
+omvang : Nvt
+budget : € 50.000,00
+status : Opgeleverd 2019
+bijzonderheden : Uitkijktoren 3 verdiepingen, 9 houten 
+kolommen. De verticale beplanking is dragend, 
+schrankingsweerstand door windverbanden aan 
+buitenzijde.
